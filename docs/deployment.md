@@ -20,6 +20,12 @@ Use the intended GitHub repository and branch. Before committing, check ignored 
 
 Review `git status` and the staged file list before committing. Do not force-push or rewrite an existing repository's history. The workspace's secret-audit script, when present, reports categories/paths and counts without printing matching values. A clean automated scan is not a guarantee against every possible unknown secret format.
 
+## Frontend-only deployment first
+
+You can complete the Vercel steps below before creating a Render service. Leave `VITE_API_BASE_URL` unset or empty. The build succeeds, navigation and styling remain available, and API-dependent pages show **Backend temporarily unavailable**. The frontend does not request `/api` on Vercel, use localhost, load invented gallery dates, or generate comparison/PDF results. The server-side simulated datasets remain unchanged and explicitly labeled. When the backend exists, set its actual HTTPS origin and rebuild the frontend.
+
+Regression validation: `npm run build` passed with `VERCEL=1` and `VITE_API_BASE_URL` unset; **30 frontend tests passed**. Tests load the actual production Vite configuration, verify zero API requests without a backend, verify the unavailable page/navigation and absence of result claims, reject production localhost URLs, and retain configured HTTPS requests. Backend and Harmony processing code were unchanged.
+
 ## 2. Render backend — manual setup
 
 1. In Render choose **New → Web Service**, connect the GitHub repository and choose the pushed branch.
@@ -54,8 +60,8 @@ Alternatively, manually create a Render Blueprint from `render.yaml`; it encodes
 
 1. In Vercel choose **Add New → Project**, import the same GitHub repository and select the intended production branch.
 2. Select **Vite**, **Root Directory `./`**, **Node.js 24.x**, **Install `npm ci`**, **Build `npm run build`**, **Output `dist`**. The configuration file supplies the commands, output and SPA rewrite.
-3. Add **`VITE_API_BASE_URL`** for the Production environment. Its value is the **actual Render HTTPS origin**, without `/api`, credentials or query parameters. For example, replace the entire placeholder `https://YOUR-SERVICE.onrender.com` with the URL Render actually assigned.
-4. Click **Deploy** yourself. A production build fails clearly if the backend origin is absent or unsafe. A Vercel-hosted build rejects localhost. No API URL is invented in source code.
+3. Optionally add **`VITE_API_BASE_URL`** for the Production environment when the backend is ready. Its value is the **actual Render HTTPS origin**, without `/api`, credentials or query parameters. For example, replace the entire placeholder `https://YOUR-SERVICE.onrender.com` with the URL Render actually assigned.
+4. Click **Deploy** yourself. A missing backend origin enables the frontend-only unavailable state. An unsafe configured origin still fails clearly. Production builds reject localhost and non-HTTPS origins. No API URL is invented in source code.
 5. Save Vercel's actual frontend origin. Update Render's `ALLOWED_ORIGINS` to that exact origin and manually redeploy/restart the backend if it differs from the initial setting.
 
 `VITE_*` variables are public build-time values. Never put credentials in them. Changing the API origin requires rebuilding the frontend. `.vercelignore` excludes backend code, datasets, caches and environment files from the frontend upload; gallery images and PDFs are served directly by Render. Vite's localhost API proxy is for development only and is not used by the production build.
@@ -88,11 +94,12 @@ From the repository root:
 .venv\Scripts\python.exe -m scripts.check_deployment
 .venv\Scripts\python.exe -m pytest backend/tests -q -p no:cacheprovider
 npm.cmd test
-# Build validation only: use your real Render origin for deployment.
-$env:VITE_API_BASE_URL = "https://YOUR-SERVICE.onrender.com"
+# Frontend-only build (no backend URL required):
+Remove-Item Env:VITE_API_BASE_URL -ErrorAction SilentlyContinue
 npm.cmd run build
+# Later, set VITE_API_BASE_URL to your actual Render HTTPS origin and rebuild.
 ```
 
-The recorded production-mode check used a built frontend on port 4174, a separate API origin on port 8010 and a clean source copy without `.env`, cached NISAR data or historical job records. Asset validation, simulated comparisons, PDF HTTP responses, CORS restrictions and private-route blocking were exercised locally; public Vercel/Render access is **not verified**. See `deployment-validation.json` for sanitized evidence. Local testing on Windows does not replace Render's Linux build and public acceptance checks. Vite currently reports a large-bundle advisory; upstream Starlette reports a TestClient deprecation warning.
+The earlier connected-backend production-mode check used a built frontend on port 4174, a separate API origin on port 8010 and a clean source copy without `.env`, cached NISAR data or historical job records. Asset validation, simulated comparisons, PDF HTTP responses, CORS restrictions and private-route blocking were exercised locally; public Vercel/Render access is **not verified**. See `deployment-validation.json` for sanitized evidence. Local testing on Windows does not replace Render's Linux build and public acceptance checks. Vite currently reports a large-bundle advisory; upstream Starlette reports a TestClient deprecation warning.
 
 Official configuration references: [Vercel Vite and SPA routing](https://vercel.com/docs/frameworks/frontend/vite), [supported Node.js versions](https://vercel.com/docs/functions/runtimes/node-js/node-js-versions), [Render FastAPI startup](https://render.com/docs/deploy-fastapi), [Render health checks](https://render.com/docs/health-checks), [Render environment variables](https://render.com/docs/configure-environment-variables).

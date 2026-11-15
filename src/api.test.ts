@@ -9,12 +9,20 @@ describe('production API configuration',()=>{
     expect(resolveApiBase('',false)).toBe('');
     expect(assetUrl('/api/images/example/preview')).toContain('/api/images/example/preview');
   });
-  it.each(['','not a url','https://host.example/api','https://user:secret@host.example','http://public.example','https://host.example?token=secret'])('rejects unsafe or missing production configuration',value=>{
+  it('allows a missing production origin for a frontend-only build',()=>{
+    expect(resolveApiBase(undefined,true,true)).toBe('');
+    expect(resolveApiBase('',true,true)).toBe('');
+    expect(resolveApiBase('  ',true,true)).toBe('');
+  });
+  it.each(['not a url','https://host.example/api','https://user:secret@host.example','http://public.example','https://host.example?token=secret'])('rejects unsafe production configuration',value=>{
     expect(()=>resolveApiBase(value,true)).toThrow();
   });
-  it('allows explicit local production checks, rejects localhost on Vercel',()=>{
-    expect(resolveApiBase('http://127.0.0.1:8010',true)).toBe('http://127.0.0.1:8010');
+  it('allows local development, rejects local addresses in production',()=>{
+    expect(resolveApiBase('http://127.0.0.1:8010',false)).toBe('http://127.0.0.1:8010');
     expect(()=>resolveApiBase('http://127.0.0.1:8010',true,true)).toThrow();
+    expect(()=>resolveApiBase('https://localhost',true)).toThrow();
+    expect(()=>resolveApiBase('https://127.0.0.2',true)).toThrow();
+    expect(()=>resolveApiBase('https://[::1]',true)).toThrow();
   });
   it('does not retry submissions or send browser credentials',async()=>{
     const fetch=vi.fn().mockResolvedValue(new Response(JSON.stringify({id:'local-job'}),{status:202,headers:{'Content-Type':'application/json'}}));

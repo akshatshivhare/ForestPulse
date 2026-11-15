@@ -1,9 +1,13 @@
 import {resolveApiBase} from './apiBase';
-const env=(import.meta as unknown as {env:{VITE_API_BASE_URL?:string;PROD?:boolean}}).env;
-const BASE=resolveApiBase(env.VITE_API_BASE_URL,env.PROD);
-export const assetUrl = (path:string) => `${BASE}${path}`;
+const BASE=resolveApiBase(import.meta.env.VITE_API_BASE_URL,import.meta.env.PROD);
+export const backendAvailable=!import.meta.env.PROD||Boolean(BASE);
+export const BACKEND_UNAVAILABLE_TITLE='Backend temporarily unavailable';
+export const BACKEND_UNAVAILABLE_MESSAGE='This frontend-only deployment is not connected to the backend. Gallery images, NASA discovery, automatic comparison and PDF reports require that connection. No analysis has been run.';
+export const apiDocsUrl=BASE?`${BASE}/docs`:import.meta.env.PROD?undefined:'http://127.0.0.1:8000/docs';
+export const assetUrl = (path:string) => backendAvailable?`${BASE}${path}`:undefined;
 export class ApiError extends Error { constructor(message: string, public code: string) { super(message); } }
 export async function api<T>(path: string, options?: RequestInit): Promise<T> {
+  if(!backendAvailable)throw new ApiError(BACKEND_UNAVAILABLE_MESSAGE,'backend_unavailable');
   let response: Response;
   const deadline=AbortSignal.timeout(90000);
   const signal=options?.signal?AbortSignal.any([options.signal,deadline]):deadline;

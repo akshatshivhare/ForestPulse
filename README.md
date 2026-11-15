@@ -1,6 +1,6 @@
 # ForestPulse
 
-**Deployment preparation:** use the [Vercel + Render deployment guide](docs/deployment.md). Both hosting roots are the repository root. Production builds require `VITE_API_BASE_URL` set to the actual Render HTTPS origin; local `npm run dev` still supports the development proxy. No public deployment is claimed. Production mode keeps NASA Harmony disabled and private job endpoints blocked.
+**Deployment preparation:** use the [Vercel + Render deployment guide](docs/deployment.md). Both hosting roots are the repository root. Production builds work without `VITE_API_BASE_URL` and show "Backend temporarily unavailable" for API-dependent features. Set it to the actual Render HTTPS origin to enable those features; local `npm run dev` still supports the development proxy. No public deployment is claimed. Production mode keeps NASA Harmony disabled and private job endpoints blocked.
 
 A NASA–ISRO NISAR mangrove monitoring prototype with Phase 1 discovery and gated Phase 2B extraction for **Sundarbans, West Bengal, India**. This is an independent prototype, not an official NASA or ISRO application.
 

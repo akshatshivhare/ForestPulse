@@ -1,13 +1,13 @@
 import {useEffect,useRef,useState} from 'react';
 import {ArrowDownToLine,ArrowLeftRight,Check,ChevronRight,Images,Layers,LoaderCircle,MapPin,Maximize2,Play,ScanLine,ShieldCheck,SlidersHorizontal,TriangleAlert} from 'lucide-react';
-import {api,assetUrl,ApiError} from '../api';
+import {api,assetUrl,ApiError,backendAvailable} from '../api';
 import {dateLabel,imageIssue} from '../imageComparison';
 import type {GalleryImage,ImageJob,ImageResult} from '../imageComparison';
 import './image-comparison.css';
 
 export default function ImageComparison(){
   const [images,setImages]=useState<GalleryImage[]>([]);
-  const [loading,setLoading]=useState(true),[error,setError]=useState<string>();
+  const [loading,setLoading]=useState(backendAvailable),[error,setError]=useState<string>();
   const [beforeId,setBefore]=useState(''),[afterId,setAfter]=useState('');
   const [job,setJob]=useState<ImageJob>(),[result,setResult]=useState<ImageResult>();
   const [submitting,setSubmitting]=useState(false),[view,setView]=useState('swipe'),[divider,setDivider]=useState(50);
@@ -20,6 +20,7 @@ export default function ImageComparison(){
   const issue=imageIssue(before,after);
   const busy=submitting||job?.status==='queued'||job?.status==='running';
   function fetchGallery(signal?:AbortSignal){
+    if(!backendAvailable){setLoading(false);return;}
     setLoading(true);setError(undefined);
     api<{images:GalleryImage[]}>('/images',{signal}).then(data=>{
       setImages(data.images);
@@ -29,7 +30,7 @@ export default function ImageComparison(){
   }
   useEffect(()=>{const controller=new AbortController();fetchGallery(controller.signal);return()=>controller.abort()},[]);
   async function run(){
-    if(issue||busy)return;
+    if(issue||busy||!backendAvailable)return;
     setSubmitting(true);setError(undefined);setResult(undefined);setRegion(undefined);
     try{
       setJob(await api<ImageJob>('/image-comparisons',{method:'POST',body:JSON.stringify({before_id:beforeId,after_id:afterId,threshold,noise_radius:noise,min_region_pixels:minimum})}));
@@ -61,10 +62,10 @@ export default function ImageComparison(){
   const simulated=before?.is_simulated;
   const image=(name:'before'|'after'|'heatmap'|'overlay')=>result?assetUrl(result.assets[name]):'';
   return <div className="ic-workflow">
-    <div className="ic-intro"><div><span className="ic-kicker"><span/> PRELOADED IMAGERY WORKSPACE</span><h2>See the difference.<br/><em>Understand the evidence.</em></h2><p>Select a matched pair. Alignment, filtering, change indicators and a detailed report happen locally, without a live satellite-processing job.</p></div><div className="ic-intro-mark"><ScanLine size={43}/><strong>Compare. Inspect. Explain.</strong><span>Local processing · Traceable inputs</span><div><i/> Ready for demonstration</div></div></div>
-    <div className={`ic-provenance ${simulated?'simulated':''}`} role="note"><ShieldCheck size={22}/><div><strong>{simulated?'SIMULATED DATA · METHODS DEMONSTRATION':'PROVENANCE FIRST'}</strong><p>{simulated?'These are generated fixtures. Scenario dates are labels, not satellite acquisitions. Indicators are not observed mangrove loss.':'Real comparisons require a matched pair from the same area, sensor and calibration. Simulations cannot be paired with real observations.'}</p></div></div>
+    <div className="ic-intro"><div><span className="ic-kicker"><span/> PRELOADED IMAGERY WORKSPACE</span><h2>See the difference.<br/><em>Understand the evidence.</em></h2><p>{backendAvailable?'Select a matched pair. Alignment, filtering, change indicators and a detailed report happen locally, without a live satellite-processing job.':'Explore the interface. Connect the backend to load image pairs, run a comparison and generate a report.'}</p></div><div className="ic-intro-mark"><ScanLine size={43}/><strong>Compare. Inspect. Explain.</strong><span>{backendAvailable?'Local processing · Traceable inputs':'Backend connection required'}</span><div><i/> {backendAvailable?'Ready for demonstration':'Frontend-only preview'}</div></div></div>
+    <div className={`ic-provenance ${simulated?'simulated':''}`} role="note"><ShieldCheck size={22}/><div><strong>{simulated?'SIMULATED DATA · METHODS DEMONSTRATION':'PROVENANCE FIRST'}</strong><p>{!backendAvailable?'Simulated demonstration datasets remain clearly labeled. Image sources and observation dates will appear after the backend is connected.':simulated?'These are generated fixtures. Scenario dates are labels, not satellite acquisitions. Indicators are not observed mangrove loss.':'Real comparisons require a matched pair from the same area, sensor and calibration. Simulations cannot be paired with real observations.'}</p></div></div>
     {error&&<div className="ic-error" role="alert"><TriangleAlert size={19}/><span>{error}</span><button className="button small" onClick={()=>{if(!images.length)fetchGallery();else void run()}} disabled={busy}>Retry</button></div>}
-    {loading?<div className="ic-empty" role="status"><LoaderCircle className="spin"/><h3>Loading the local image library</h3><p>No NASA connection is needed.</p></div>:!available.length?<div className="ic-empty"><Images/><h3>No preloaded images available</h3><p>Restore the dataset assets or run the documented demo-data preparation command.</p><button className="button" onClick={()=>fetchGallery()}>Reload gallery</button></div>:<>
+    {loading?<div className="ic-empty" role="status"><LoaderCircle className="spin"/><h3>Loading the local image library</h3><p>No NASA connection is needed.</p></div>:!available.length?<div className="ic-empty"><Images/><h3>{backendAvailable?'No preloaded images available':'Gallery awaiting backend connection'}</h3><p>{backendAvailable?'Restore the dataset assets or run the documented demo-data preparation command.':'Image selection, alignment, heatmaps and reports are unavailable until the backend is connected. No image dates or comparison results have been loaded.'}</p><button className="button" disabled={!backendAvailable} onClick={()=>fetchGallery()}>Reload gallery</button></div>:<>
       <section className="ic-pair-bar" aria-label="Choose image dates"><label><span>01 / BASELINE</span><select aria-label="Baseline image date" value={beforeId} disabled={busy} onChange={e=>choose(e.target.value,'before')}><option value="">Choose an available image</option>{available.map(i=><option key={i.id} value={i.id}>{dateLabel(i)} · {i.name}</option>)}</select></label><ArrowLeftRight className="ic-pair-arrow" size={19}/><label><span>02 / FOLLOW-UP</span><select aria-label="Follow-up image date" value={afterId} disabled={busy} onChange={e=>choose(e.target.value,'after')}><option value="">Choose an available image</option>{available.map(i=><option key={i.id} value={i.id}>{dateLabel(i)} · {i.name}</option>)}</select></label><button className="ic-run" disabled={!!issue||busy} onClick={()=>void run()}>{busy?<LoaderCircle size={16} className="spin"/>:<Play size={15}/>} {busy?'Comparing…':'Compare images'}</button></section>
       {issue&&<p className="ic-selection-note" role="status"><TriangleAlert size={14}/>{issue}</p>}
       <div className="ic-workbench"><section className="ic-canvas-panel"><header><div><span className="ic-kicker">COMPARISON VIEW</span><h3>{result?'The same scene, brought into focus':'Your comparison workspace'}</h3></div><span className="ic-local"><i/> LOCAL ENGINE</span></header>
