@@ -1,0 +1,41 @@
+{
+  "started_at_utc": "2026-11-14T18:58:55.282721+00:00",
+  "authentication_verified": false,
+  "status": "blocked",
+  "submission_attempts": 0,
+  "remote_job_id": null,
+  "events": [],
+  "plan": null,
+  "job": null,
+  "pixel_statistics": null,
+  "second_scene_submitted": false,
+  "analysis_ready": false,
+  "updated_at_utc": "2026-11-14T19:00:29.385268+00:00",
+  "error": {
+    "detail": {
+      "code": "harmony_unavailable",
+      "message": "NASA request failed or returned invalid metadata. No remote details or credentials are exposed."
+    },
+    "backend_http_status": 502
+  },
+  "process_local_enablement_restored_false": true,
+  "finished_at_utc": "2026-11-14T19:00:29.385268+00:00",
+  "access_probes": [
+    {
+      "authenticated_request": false,
+      "http_status": 303,
+      "jobs_list_received": false
+    },
+    {
+      "authenticated_request": true,
+      "error_type": "ReadTimeout"
+    }
+  ],
+  "access_probes_at_utc": "2026-11-14T19:02:03.120014+00:00",
+  "token_configured": true,
+  "persistent_live_processing_enabled": false,
+  "public_capabilities_probe": {
+    "http_status": 200,
+    "json_response": true
+  }
+}

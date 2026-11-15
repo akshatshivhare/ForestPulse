@@ -1,0 +1,218 @@
+[
+  {
+    "file": "collections.json",
+    "url": "https://cmr.earthdata.nasa.gov/search/collections.umm_json?keyword=NISAR&page_size=200",
+    "retrieved_at_utc": "2026-11-14T17:38:54.378386+00:00",
+    "status": 200,
+    "content_type": "application/vnd.nasa.cmr.umm_results+json;version=1.18.6; charset=utf-8",
+    "cmr_hits_header": "52",
+    "sha256": "c0b7a8e9b31a3f846d096d4e6d6567cc31c2043c4b613377c0a161a9e9b9e2ec"
+  },
+  {
+    "file": "C2854338529-ASF-regional-1.json",
+    "url": "https://cmr.earthdata.nasa.gov/search/granules.umm_json?collection_concept_id=C2854338529-ASF&bounding_box=88.15%2C21.45%2C89.2%2C22.5&page_size=200&page_num=1&sort_key=-start_date",
+    "retrieved_at_utc": "2026-11-14T17:39:27.629831+00:00",
+    "status": 200,
+    "content_type": "application/vnd.nasa.cmr.umm_results+json;version=1.6.7; charset=utf-8",
+    "cmr_hits_header": "94",
+    "sha256": "b10eea081ad942bc2b45a0bb1edb0a27335dc031b66812535ff725e4d028dcc2"
+  },
+  {
+    "file": "C2854338529-ASF-pilot.json",
+    "url": "https://cmr.earthdata.nasa.gov/search/granules.umm_json?collection_concept_id=C2854338529-ASF&bounding_box=88.4%2C21.55%2C89.1%2C22.25&page_size=200&page_num=1&sort_key=-start_date",
+    "retrieved_at_utc": "2026-11-14T17:39:31.668424+00:00",
+    "status": 200,
+    "content_type": "application/vnd.nasa.cmr.umm_results+json;version=1.6.7; charset=utf-8",
+    "cmr_hits_header": "66",
+    "sha256": "d1c2e2b385c2776265952a9b9cd0b16cc38349f0c0984ef593b8477f48aa9050"
+  },
+  {
+    "file": "C2854338529-ASF-capabilities.json",
+    "url": "https://harmony.earthdata.nasa.gov/capabilities?collectionId=C2854338529-ASF",
+    "retrieved_at_utc": "2026-11-14T17:39:32.995069+00:00",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "cmr_hits_header": null,
+    "sha256": "d8ed684af52d5432a53ec2395a065e024d9a2ea6e10704ae133115e8fabb0962"
+  },
+  {
+    "file": "C2854338529-ASF-variables.json",
+    "url": "https://cmr.earthdata.nasa.gov/search/variables.umm_json?concept_id%5B%5D=V4137625795-ASF&concept_id%5B%5D=V4137651715-ASF&concept_id%5B%5D=V4137625797-ASF&concept_id%5B%5D=V4137650477-ASF&concept_id%5B%5D=V4137625798-ASF&concept_id%5B%5D=V4137625794-ASF&concept_id%5B%5D=V4132622337-ASF&concept_id%5B%5D=V4137651771-ASF&concept_id%5B%5D=V4137651736-ASF&concept_id%5B%5D=V4137650471-ASF&concept_id%5B%5D=V4137650475-ASF&concept_id%5B%5D=V4137651748-ASF&concept_id%5B%5D=V4137651763-ASF&concept_id%5B%5D=V4137651754-ASF&concept_id%5B%5D=V4137650474-ASF&concept_id%5B%5D=V4137650481-ASF&concept_id%5B%5D=V4137625796-ASF&concept_id%5B%5D=V4137650467-ASF&concept_id%5B%5D=V4137650465-ASF&concept_id%5B%5D=V4137651725-ASF&page_size=200",
+    "retrieved_at_utc": "2026-11-14T17:39:33.328717+00:00",
+    "status": 200,
+    "content_type": "application/vnd.nasa.cmr.umm_results+json;version=1.9.0; charset=utf-8",
+    "cmr_hits_header": "20",
+    "sha256": "aba8dffb4e5dc7ec359ca89d2bd26cb2eea1a9b53a35e56c278e3b5bb4ee12bb"
+  },
+  {
+    "file": "C2854338529-ASF-services.json",
+    "url": "https://cmr.earthdata.nasa.gov/search/services.umm_json?concept_id%5B%5D=S4389714698-ASF&concept_id%5B%5D=S4166720787-ASF&page_size=200",
+    "retrieved_at_utc": "2026-11-14T17:39:33.692865+00:00",
+    "status": 200,
+    "content_type": "application/vnd.nasa.cmr.umm_results+json;version=1.5.4; charset=utf-8",
+    "cmr_hits_header": "2",
+    "sha256": "dc86b0b64b6f525d71bef979eecbeac713ffbbbb292c58a0f433283f89527766"
+  },
+  {
+    "file": "C3622214170-ASF-regional-1.json",
+    "url": "https://cmr.earthdata.nasa.gov/search/granules.umm_json?collection_concept_id=C3622214170-ASF&bounding_box=88.15%2C21.45%2C89.2%2C22.5&page_size=200&page_num=1&sort_key=-start_date",
+    "retrieved_at_utc": "2026-11-14T17:39:34.604164+00:00",
+    "status": 200,
+    "content_type": "application/vnd.nasa.cmr.umm_results+json;version=1.6.7; charset=utf-8",
+    "cmr_hits_header": "10",
+    "sha256": "c612e52efe755c3ead88c954c19e4323d54c1f5d8d9c93b9e3758527666d1aff"
+  },
+  {
+    "file": "C3622214170-ASF-pilot.json",
+    "url": "https://cmr.earthdata.nasa.gov/search/granules.umm_json?collection_concept_id=C3622214170-ASF&bounding_box=88.4%2C21.55%2C89.1%2C22.25&page_size=200&page_num=1&sort_key=-start_date",
+    "retrieved_at_utc": "2026-11-14T17:39:35.062343+00:00",
+    "status": 200,
+    "content_type": "application/vnd.nasa.cmr.umm_results+json;version=1.6.7; charset=utf-8",
+    "cmr_hits_header": "5",
+    "sha256": "0579cac42fac660d273ba93a8fc1e08fb7725fd7b17373250251d44b13763b23"
+  },
+  {
+    "file": "C3622214170-ASF-capabilities.json",
+    "url": "https://harmony.earthdata.nasa.gov/capabilities?collectionId=C3622214170-ASF",
+    "retrieved_at_utc": "2026-11-14T17:39:35.569940+00:00",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "cmr_hits_header": null,
+    "sha256": "4978d862c5477a3008b27352d1859b9b2cf71f64f1f0966a0f1d57e1fbee4bff"
+  },
+  {
+    "file": "C3622214170-ASF-variables.json",
+    "url": "https://cmr.earthdata.nasa.gov/search/variables.umm_json?concept_id%5B%5D=V4137650465-ASF&concept_id%5B%5D=V4137650481-ASF&concept_id%5B%5D=V4137651748-ASF&concept_id%5B%5D=V4137650474-ASF&concept_id%5B%5D=V4137651736-ASF&concept_id%5B%5D=V4132622337-ASF&concept_id%5B%5D=V4137651763-ASF&concept_id%5B%5D=V4137625797-ASF&concept_id%5B%5D=V4137650467-ASF&concept_id%5B%5D=V4137650477-ASF&concept_id%5B%5D=V4137625794-ASF&concept_id%5B%5D=V4137650475-ASF&concept_id%5B%5D=V4137625798-ASF&concept_id%5B%5D=V4137651725-ASF&concept_id%5B%5D=V4137625795-ASF&concept_id%5B%5D=V4137651771-ASF&concept_id%5B%5D=V4137651754-ASF&concept_id%5B%5D=V4137625796-ASF&concept_id%5B%5D=V4137651715-ASF&concept_id%5B%5D=V4137650471-ASF&page_size=200",
+    "retrieved_at_utc": "2026-11-14T17:39:35.918549+00:00",
+    "status": 200,
+    "content_type": "application/vnd.nasa.cmr.umm_results+json;version=1.9.0; charset=utf-8",
+    "cmr_hits_header": "20",
+    "sha256": "cf9b105fe08209e55495f45726faf325f212dacc79d4c301cf59af59df09ba8c"
+  },
+  {
+    "file": "C3622214170-ASF-services.json",
+    "url": "https://cmr.earthdata.nasa.gov/search/services.umm_json?concept_id%5B%5D=S4166720787-ASF&concept_id%5B%5D=S4389714698-ASF&page_size=200",
+    "retrieved_at_utc": "2026-11-14T17:39:36.429753+00:00",
+    "status": 200,
+    "content_type": "application/vnd.nasa.cmr.umm_results+json;version=1.5.4; charset=utf-8",
+    "cmr_hits_header": "2",
+    "sha256": "f2fd0359ae94ff1b17e68dc88622e2d9207b4225a109ab4bdb19266b2579cdd4"
+  },
+  {
+    "file": "C3622241360-ASF-regional-1.json",
+    "url": "https://cmr.earthdata.nasa.gov/search/granules.umm_json?collection_concept_id=C3622241360-ASF&bounding_box=88.15%2C21.45%2C89.2%2C22.5&page_size=200&page_num=1&sort_key=-start_date",
+    "retrieved_at_utc": "2026-11-14T17:39:37.440646+00:00",
+    "status": 200,
+    "content_type": "application/vnd.nasa.cmr.umm_results+json;version=1.6.7; charset=utf-8",
+    "cmr_hits_header": "14",
+    "sha256": "e653b389d6f7400d743176d7891350a2bc4d2b3fe5721f661df7ac8fed1b0b93"
+  },
+  {
+    "file": "C3622241360-ASF-pilot.json",
+    "url": "https://cmr.earthdata.nasa.gov/search/granules.umm_json?collection_concept_id=C3622241360-ASF&bounding_box=88.4%2C21.55%2C89.1%2C22.25&page_size=200&page_num=1&sort_key=-start_date",
+    "retrieved_at_utc": "2026-11-14T17:39:38.275076+00:00",
+    "status": 200,
+    "content_type": "application/vnd.nasa.cmr.umm_results+json;version=1.6.7; charset=utf-8",
+    "cmr_hits_header": "10",
+    "sha256": "43c846fa74865893de26807abfdd81a745605832e8bbba51bdbcb797dd87b787"
+  },
+  {
+    "file": "C3622241360-ASF-capabilities.json",
+    "url": "https://harmony.earthdata.nasa.gov/capabilities?collectionId=C3622241360-ASF",
+    "retrieved_at_utc": "2026-11-14T17:39:38.655419+00:00",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "cmr_hits_header": null,
+    "sha256": "a78f7b59dd51d2d73972a8d7c3d58412c794061ca9b016021fd698b41dfe1a19"
+  },
+  {
+    "file": "C3622241360-ASF-variables.json",
+    "url": "https://cmr.earthdata.nasa.gov/search/variables.umm_json?concept_id%5B%5D=V4137650477-ASF&concept_id%5B%5D=V4137651754-ASF&concept_id%5B%5D=V4137650474-ASF&concept_id%5B%5D=V4137650465-ASF&concept_id%5B%5D=V4137651763-ASF&concept_id%5B%5D=V4137651725-ASF&concept_id%5B%5D=V4137651771-ASF&concept_id%5B%5D=V4137625798-ASF&concept_id%5B%5D=V4137650467-ASF&concept_id%5B%5D=V4132622337-ASF&concept_id%5B%5D=V4137650471-ASF&concept_id%5B%5D=V4137625796-ASF&concept_id%5B%5D=V4137651715-ASF&concept_id%5B%5D=V4137625794-ASF&concept_id%5B%5D=V4137625795-ASF&concept_id%5B%5D=V4137625797-ASF&concept_id%5B%5D=V4137651748-ASF&concept_id%5B%5D=V4137651736-ASF&concept_id%5B%5D=V4137650475-ASF&concept_id%5B%5D=V4137650481-ASF&page_size=200",
+    "retrieved_at_utc": "2026-11-14T17:39:38.994140+00:00",
+    "status": 200,
+    "content_type": "application/vnd.nasa.cmr.umm_results+json;version=1.9.0; charset=utf-8",
+    "cmr_hits_header": "20",
+    "sha256": "9cdb2bc176330385bf51e6e5ac9fb8fc74aafa593c0f4750f6df7a09f922cad3"
+  },
+  {
+    "file": "C3622241360-ASF-services.json",
+    "url": "https://cmr.earthdata.nasa.gov/search/services.umm_json?concept_id%5B%5D=S4389714698-ASF&concept_id%5B%5D=S4166720787-ASF&page_size=200",
+    "retrieved_at_utc": "2026-11-14T17:39:39.497714+00:00",
+    "status": 200,
+    "content_type": "application/vnd.nasa.cmr.umm_results+json;version=1.5.4; charset=utf-8",
+    "cmr_hits_header": "2",
+    "sha256": "d45c96c5b6191df9f6a11fe71db11901248fe80bfc88d732ccd9816e277428a4"
+  },
+  {
+    "file": "G4405780437-ASF.json",
+    "url": "https://cmr.earthdata.nasa.gov/search/concepts/G4405780437-ASF.umm_json",
+    "retrieved_at_utc": "2026-11-14T17:39:39.837823+00:00",
+    "status": 200,
+    "content_type": "application/vnd.nasa.cmr.umm+json;version=1.6.7; charset=utf-8",
+    "cmr_hits_header": null,
+    "sha256": "cc2855300aad2210b7ed8e36a88866ab641d60506679e69062b0c28cc226b884"
+  },
+  {
+    "file": "G4405780437-ASF-iso-metadata.json",
+    "url": "https://nisar.asf.earthdatacloud.nasa.gov/NISAR/NISAR_L2_GCOV_V1/NISAR_L2_PR_GCOV_033_170_A_013_4005_DHDH_A_20261023T232918_20261023T232952_P05036_N_F_J_001/NISAR_L2_PR_GCOV_033_170_A_013_4005_DHDH_A_20261023T232918_20261023T232952_P05036_N_F_J_001.h5.iso.xml",
+    "retrieved_at_utc": "2026-11-14T17:39:40.873612+00:00",
+    "status": 302,
+    "content_type": "application/json",
+    "cmr_hits_header": null,
+    "sha256": "07c872c555795ea5ab0ef965e45c1becfb2d0d549c499c78aabf125a3f5cb958"
+  },
+  {
+    "file": "G4405780437-ASF-qa-summary.json",
+    "url": "https://nisar.asf.earthdatacloud.nasa.gov/NISAR/NISAR_L2_GCOV_V1/NISAR_L2_PR_GCOV_033_170_A_013_4005_DHDH_A_20261023T232918_20261023T232952_P05036_N_F_J_001/NISAR_L2_PR_GCOV_033_170_A_013_4005_DHDH_A_20261023T232918_20261023T232952_P05036_N_F_J_001_QA_SUMMARY.csv",
+    "retrieved_at_utc": "2026-11-14T17:39:41.331820+00:00",
+    "status": 302,
+    "content_type": "application/json",
+    "cmr_hits_header": null,
+    "sha256": "07c872c555795ea5ab0ef965e45c1becfb2d0d549c499c78aabf125a3f5cb958"
+  },
+  {
+    "file": "G4405182121-ASF.json",
+    "url": "https://cmr.earthdata.nasa.gov/search/concepts/G4405182121-ASF.umm_json",
+    "retrieved_at_utc": "2026-11-14T17:39:41.850803+00:00",
+    "status": 200,
+    "content_type": "application/vnd.nasa.cmr.umm+json;version=1.6.7; charset=utf-8",
+    "cmr_hits_header": null,
+    "sha256": "18bb5fdcec575eada5c7586ea4150437e67317daeb5f90108b7ab4f8e0b16787"
+  },
+  {
+    "file": "G4405182121-ASF-iso-metadata.json",
+    "url": "https://nisar.asf.earthdatacloud.nasa.gov/NISAR/NISAR_L2_GCOV_V1/NISAR_L2_PR_GCOV_034_170_A_013_4005_DHDH_A_20261104T232918_20261104T232952_P05036_N_F_J_001/NISAR_L2_PR_GCOV_034_170_A_013_4005_DHDH_A_20261104T232918_20261104T232952_P05036_N_F_J_001.h5.iso.xml",
+    "retrieved_at_utc": "2026-11-14T17:39:42.275112+00:00",
+    "status": 302,
+    "content_type": "application/json",
+    "cmr_hits_header": null,
+    "sha256": "07c872c555795ea5ab0ef965e45c1becfb2d0d549c499c78aabf125a3f5cb958"
+  },
+  {
+    "file": "G4405182121-ASF-qa-summary.json",
+    "url": "https://nisar.asf.earthdatacloud.nasa.gov/NISAR/NISAR_L2_GCOV_V1/NISAR_L2_PR_GCOV_034_170_A_013_4005_DHDH_A_20261104T232918_20261104T232952_P05036_N_F_J_001/NISAR_L2_PR_GCOV_034_170_A_013_4005_DHDH_A_20261104T232918_20261104T232952_P05036_N_F_J_001_QA_SUMMARY.csv",
+    "retrieved_at_utc": "2026-11-14T17:39:42.713732+00:00",
+    "status": 302,
+    "content_type": "application/json",
+    "cmr_hits_header": null,
+    "sha256": "07c872c555795ea5ab0ef965e45c1becfb2d0d549c499c78aabf125a3f5cb958"
+  },
+  {
+    "file": "G4404467079-ASF.json",
+    "url": "https://cmr.earthdata.nasa.gov/search/concepts/G4404467079-ASF.umm_json",
+    "retrieved_at_utc": "2026-11-14T17:39:43.258460+00:00",
+    "status": 200,
+    "content_type": "application/vnd.nasa.cmr.umm+json;version=1.6.7; charset=utf-8",
+    "cmr_hits_header": null,
+    "sha256": "c7e890fce9a5c9ae4cad8fec3c5e3961c162a76e5a14197a8cebdbf647bce9da"
+  },
+  {
+    "file": "G4409021162-ASF.json",
+    "url": "https://cmr.earthdata.nasa.gov/search/concepts/G4409021162-ASF.umm_json",
+    "retrieved_at_utc": "2026-11-14T17:39:43.593023+00:00",
+    "status": 200,
+    "content_type": "application/vnd.nasa.cmr.umm+json;version=1.6.7; charset=utf-8",
+    "cmr_hits_header": null,
+    "sha256": "12da523f3681b9805bd91513c6b9b535320bbe2fc2ef1cc0099be7241f2c0048"
+  }
+]

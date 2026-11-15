@@ -1,0 +1,578 @@
+{
+  "local_comparison_evidence": [
+    {
+      "id": "12cf1b40-57fa-47ae-9534-39c7e99c18ab",
+      "before": {
+        "id": "sim-rgb-before",
+        "name": "Simulated optical delta \u00b7 baseline",
+        "area_id": "sundarbans-simulated-rgb-v1",
+        "area": "Sundarbans-inspired illustrative tile; not a real observed landscape",
+        "source": "ForestPulse deterministic procedural simulation v1 (seed 20261115)",
+        "sensor": "SIMULATED RGB camera",
+        "data_type": "rgb",
+        "units": "display_rgb",
+        "is_simulated": true,
+        "acquisition_date": null,
+        "scenario_date": "2026-01-01",
+        "date_kind": "simulated_scenario",
+        "pair_group": "sim-rgb-v1",
+        "polarization": null,
+        "frequency": null,
+        "calibration": "uncalibrated_display_rgb",
+        "provenance": {
+          "generator": "scripts/generate_comparison_demo.py",
+          "seed": 20261115
+        },
+        "notice": "SIMULATED. Scenario dates are labels, not satellite acquisition dates. No real forest-change evidence.",
+        "filename": "rgb-before.png",
+        "available": true,
+        "thumbnail_url": "/api/images/sim-rgb-before/preview?v=1794732339094146200"
+      },
+      "after": {
+        "id": "sim-rgb-after",
+        "name": "Simulated optical delta \u00b7 follow-up",
+        "area_id": "sundarbans-simulated-rgb-v1",
+        "area": "Sundarbans-inspired illustrative tile; not a real observed landscape",
+        "source": "ForestPulse deterministic procedural simulation v1 (seed 20261115)",
+        "sensor": "SIMULATED RGB camera",
+        "data_type": "rgb",
+        "units": "display_rgb",
+        "is_simulated": true,
+        "acquisition_date": null,
+        "scenario_date": "2026-02-01",
+        "date_kind": "simulated_scenario",
+        "pair_group": "sim-rgb-v1",
+        "polarization": null,
+        "frequency": null,
+        "calibration": "uncalibrated_display_rgb",
+        "provenance": {
+          "generator": "scripts/generate_comparison_demo.py",
+          "seed": 20261115
+        },
+        "notice": "SIMULATED. Scenario dates are labels, not satellite acquisition dates. No real forest-change evidence.",
+        "filename": "rgb-after.png",
+        "available": true,
+        "thumbnail_url": "/api/images/sim-rgb-after/preview?v=1794732339105179500"
+      },
+      "is_simulated": true,
+      "method": "Visual RGB difference: CIE76 distance in CIELAB",
+      "scientific_status": "simulated_method_demonstration",
+      "parameters": {
+        "threshold": 15.0,
+        "noise_radius": 1,
+        "min_region_pixels": 64,
+        "filter": "valid-weighted Gaussian"
+      },
+      "alignment": {
+        "method": "ORB features + RANSAC partial-affine registration",
+        "confidence": "high",
+        "confidence_note": "Heuristic registration confidence from measured matches, inliers and residuals; not an accuracy score.",
+        "matches": 2120,
+        "inliers": 2003,
+        "inlier_ratio": 0.944811320754717,
+        "reprojection_rmse_pixels": 0.8184807896614075,
+        "spatial_feature_cells": 9,
+        "shared_coverage_fraction": 0.9962043010752688,
+        "affine_after_to_before": [
+          [
+            0.9999921444327018,
+            -0.00020719823140298381,
+            -4.912158299298155
+          ],
+          [
+            0.00020719823140298381,
+            0.9999921444327018,
+            2.976907696919133
+          ]
+        ],
+        "crs": null,
+        "geographic_location_verified": false,
+        "geographic_note": "Same locality is curator metadata; feature alignment proves visual overlap, not geographic accuracy."
+      },
+      "summary": {
+        "valid_pixels": 185294,
+        "invalid_or_nonoverlap_pixels": 11314,
+        "changed_pixels": 5628,
+        "changed_percent_of_valid": 3.037335261800166,
+        "region_count": 2,
+        "regions_displayed": 2,
+        "indicator_units": "CIE76 visual color difference",
+        "mean_absolute_difference": 1.4370908737182617,
+        "p95_absolute_difference": 2.6040151119232178,
+        "mean_signed_difference_db": null,
+        "brightening_pixels": null,
+        "darkening_pixels": null
+      },
+      "regions": [
+        {
+          "id": 1,
+          "pixels": 3879,
+          "bbox": [
+            87,
+            85,
+            79,
+            65
+          ],
+          "mean_indicator_magnitude": 36.495384216308594,
+          "polygon": [
+            [
+              161,
+              97
+            ],
+            [
+              154,
+              90
+            ],
+            [
+              139,
+              85
+            ],
+            [
+              123,
+              86
+            ],
+            [
+              107,
+              93
+            ],
+            [
+              95,
+              103
+            ],
+            [
+              89,
+              114
+            ],
+            [
+              87,
+              123
+            ],
+            [
+              91,
+              137
+            ],
+            [
+              100,
+              145
+            ],
+            [
+              113,
+              149
+            ],
+            [
+              123,
+              149
+            ],
+            [
+              138,
+              145
+            ],
+            [
+              152,
+              136
+            ],
+            [
+              163,
+              121
+            ],
+            [
+              165,
+              111
+            ]
+          ],
+          "direction": "visual difference"
+        },
+        {
+          "id": 2,
+          "pixels": 1749,
+          "bbox": [
+            385,
+            75,
+            53,
+            33
+          ],
+          "mean_indicator_magnitude": 33.71697998046875,
+          "polygon": [
+            [
+              385,
+              75
+            ],
+            [
+              385,
+              107
+            ],
+            [
+              437,
+              107
+            ],
+            [
+              437,
+              75
+            ]
+          ],
+          "direction": "visual difference"
+        }
+      ],
+      "width": 512,
+      "height": 384,
+      "heatmap_scale_max": 37.07963180541992,
+      "warnings": [
+        "SIMULATED DATA. Scenario dates are fictional labels, not satellite acquisition dates. No observed environmental change is represented.",
+        "Indicators are not confirmed deforestation, mangrove loss or hectares of forest lost.",
+        "Thresholds and registration-confidence categories are heuristic, not validated detection accuracy.",
+        "Region outlines show outer pixel boundaries; statistics use the actual mask, including holes.",
+        "RGB display differences can reflect illumination, compression, rendering or registration. They are visual indicators, not calibrated reflectance or radar measurements.",
+        "No geographic area measurement: alignment is in image space; locality comes from curated metadata."
+      ],
+      "ecological_validation": false,
+      "interpretation": "Changed regions indicate synthetic signal differences introduced for a methods demonstration.",
+      "assets": {
+        "heatmap": "/api/image-comparisons/12cf1b40-57fa-47ae-9534-39c7e99c18ab/assets/heatmap",
+        "overlay": "/api/image-comparisons/12cf1b40-57fa-47ae-9534-39c7e99c18ab/assets/overlay",
+        "valid": "/api/image-comparisons/12cf1b40-57fa-47ae-9534-39c7e99c18ab/assets/valid",
+        "report": "/api/image-comparisons/12cf1b40-57fa-47ae-9534-39c7e99c18ab/assets/report",
+        "before": "/api/image-comparisons/12cf1b40-57fa-47ae-9534-39c7e99c18ab/assets/before",
+        "mask": "/api/image-comparisons/12cf1b40-57fa-47ae-9534-39c7e99c18ab/assets/mask",
+        "after": "/api/image-comparisons/12cf1b40-57fa-47ae-9534-39c7e99c18ab/assets/after"
+      },
+      "created_at_utc": "2026-11-15T08:51:28.414917+00:00"
+    },
+    {
+      "id": "bcfd9345-5c4d-4149-9039-d6c2be74fd7d",
+      "before": {
+        "id": "sim-sar-before",
+        "name": "Simulated radar power \u00b7 baseline",
+        "area_id": "sundarbans-simulated-sar-v1",
+        "area": "Sundarbans-inspired illustrative tile; not a real observed landscape",
+        "source": "ForestPulse deterministic procedural simulation v1 (seed 20261115)",
+        "sensor": "SIMULATED radar",
+        "data_type": "sar_power",
+        "units": "gamma0_linear_power",
+        "is_simulated": true,
+        "acquisition_date": null,
+        "scenario_date": "2026-01-01",
+        "date_kind": "simulated_scenario",
+        "pair_group": "sim-sar-v1",
+        "polarization": "HH",
+        "frequency": "A",
+        "calibration": "synthetic_power",
+        "provenance": {
+          "generator": "scripts/generate_comparison_demo.py",
+          "seed": 20261115
+        },
+        "notice": "SIMULATED. Scenario dates are labels, not satellite acquisition dates. No real forest-change evidence.",
+        "filename": "sar-before.tif",
+        "available": true,
+        "thumbnail_url": "/api/images/sim-sar-before/preview?v=1794732339164015700"
+      },
+      "after": {
+        "id": "sim-sar-after",
+        "name": "Simulated radar power \u00b7 follow-up",
+        "area_id": "sundarbans-simulated-sar-v1",
+        "area": "Sundarbans-inspired illustrative tile; not a real observed landscape",
+        "source": "ForestPulse deterministic procedural simulation v1 (seed 20261115)",
+        "sensor": "SIMULATED radar",
+        "data_type": "sar_power",
+        "units": "gamma0_linear_power",
+        "is_simulated": true,
+        "acquisition_date": null,
+        "scenario_date": "2026-02-01",
+        "date_kind": "simulated_scenario",
+        "pair_group": "sim-sar-v1",
+        "polarization": "HH",
+        "frequency": "A",
+        "calibration": "synthetic_power",
+        "provenance": {
+          "generator": "scripts/generate_comparison_demo.py",
+          "seed": 20261115
+        },
+        "notice": "SIMULATED. Scenario dates are labels, not satellite acquisition dates. No real forest-change evidence.",
+        "filename": "sar-after.tif",
+        "available": true,
+        "thumbnail_url": "/api/images/sim-sar-after/preview?v=1794732339184750500"
+      },
+      "is_simulated": true,
+      "method": "Power ratio in decibels: 10 log10(after/before)",
+      "scientific_status": "simulated_method_demonstration",
+      "parameters": {
+        "threshold": 3.0,
+        "noise_radius": 1,
+        "min_region_pixels": 64,
+        "filter": "valid-weighted Gaussian"
+      },
+      "alignment": {
+        "method": "Georeferenced common grid",
+        "confidence": "georeferenced",
+        "confidence_note": "Coordinate alignment is verified; source geolocation accuracy and ecological comparability are not.",
+        "crs": "EPSG:32645",
+        "resolution": [
+          6.11328125,
+          8.697916666666666
+        ],
+        "transform": [
+          6.11328125,
+          0.0,
+          680810.0,
+          0.0,
+          -8.697916666666666,
+          2420600.0
+        ],
+        "bounds": [
+          680810.0,
+          2417260.0,
+          683940.0,
+          2420600.0
+        ],
+        "coverage_fraction_each": [
+          1.0,
+          1.0
+        ],
+        "resampling": "bilinear in linear power space",
+        "geographic_location_verified": true
+      },
+      "summary": {
+        "valid_pixels": 186000,
+        "invalid_or_nonoverlap_pixels": 10608,
+        "changed_pixels": 6064,
+        "changed_percent_of_valid": 3.2602150537634405,
+        "region_count": 2,
+        "regions_displayed": 2,
+        "indicator_units": "dB power difference",
+        "mean_absolute_difference": 0.35349026322364807,
+        "p95_absolute_difference": 0.6196920275688171,
+        "mean_signed_difference_db": -0.04909816384315491,
+        "brightening_pixels": 2318,
+        "darkening_pixels": 3746
+      },
+      "regions": [
+        {
+          "id": 1,
+          "pixels": 3746,
+          "bbox": [
+            86,
+            88,
+            79,
+            59
+          ],
+          "mean_indicator_magnitude": 4.922252655029297,
+          "polygon": [
+            [
+              89,
+              104
+            ],
+            [
+              86,
+              111
+            ],
+            [
+              86,
+              123
+            ],
+            [
+              89,
+              130
+            ],
+            [
+              98,
+              139
+            ],
+            [
+              111,
+              145
+            ],
+            [
+              135,
+              146
+            ],
+            [
+              147,
+              142
+            ],
+            [
+              161,
+              130
+            ],
+            [
+              164,
+              123
+            ],
+            [
+              164,
+              111
+            ],
+            [
+              161,
+              104
+            ],
+            [
+              152,
+              95
+            ],
+            [
+              139,
+              89
+            ],
+            [
+              111,
+              89
+            ],
+            [
+              98,
+              95
+            ]
+          ],
+          "direction": "darkening"
+        },
+        {
+          "id": 2,
+          "pixels": 2318,
+          "bbox": [
+            331,
+            249,
+            69,
+            43
+          ],
+          "mean_indicator_magnitude": 3.970221996307373,
+          "polygon": [
+            [
+              331,
+              266
+            ],
+            [
+              331,
+              274
+            ],
+            [
+              334,
+              279
+            ],
+            [
+              342,
+              286
+            ],
+            [
+              356,
+              291
+            ],
+            [
+              374,
+              291
+            ],
+            [
+              384,
+              288
+            ],
+            [
+              392,
+              283
+            ],
+            [
+              399,
+              274
+            ],
+            [
+              398,
+              264
+            ],
+            [
+              388,
+              254
+            ],
+            [
+              374,
+              249
+            ],
+            [
+              362,
+              249
+            ],
+            [
+              346,
+              252
+            ],
+            [
+              338,
+              257
+            ]
+          ],
+          "direction": "brightening"
+        }
+      ],
+      "width": 512,
+      "height": 384,
+      "heatmap_scale_max": 4.991024017333984,
+      "warnings": [
+        "SIMULATED DATA. Scenario dates are fictional labels, not satellite acquisition dates. No observed environmental change is represented.",
+        "Indicators are not confirmed deforestation, mangrove loss or hectares of forest lost.",
+        "Thresholds and registration-confidence categories are heuristic, not validated detection accuracy.",
+        "Region outlines show outer pixel boundaries; statistics use the actual mask, including holes.",
+        "Power values are compared on a common grid. Tide, incidence, focusing/subswath QA, mangrove masks and ecological validation are not established."
+      ],
+      "ecological_validation": false,
+      "interpretation": "Changed regions indicate synthetic signal differences introduced for a methods demonstration.",
+      "assets": {
+        "heatmap": "/api/image-comparisons/bcfd9345-5c4d-4149-9039-d6c2be74fd7d/assets/heatmap",
+        "overlay": "/api/image-comparisons/bcfd9345-5c4d-4149-9039-d6c2be74fd7d/assets/overlay",
+        "valid": "/api/image-comparisons/bcfd9345-5c4d-4149-9039-d6c2be74fd7d/assets/valid",
+        "report": "/api/image-comparisons/bcfd9345-5c4d-4149-9039-d6c2be74fd7d/assets/report",
+        "before": "/api/image-comparisons/bcfd9345-5c4d-4149-9039-d6c2be74fd7d/assets/before",
+        "mask": "/api/image-comparisons/bcfd9345-5c4d-4149-9039-d6c2be74fd7d/assets/mask",
+        "after": "/api/image-comparisons/bcfd9345-5c4d-4149-9039-d6c2be74fd7d/assets/after"
+      },
+      "created_at_utc": "2026-11-15T08:51:30.308095+00:00"
+    }
+  ],
+  "validation": {
+    "checked_at_utc": "2026-11-15T09:01:19.254229+00:00",
+    "backend_tests": {
+      "passed": 172,
+      "skipped": 1
+    },
+    "frontend_tests": {
+      "passed": 14
+    },
+    "production_build": "passed; existing large bundle advisory",
+    "dependencies": "uv pip check passed",
+    "harmony_processing_enabled": false,
+    "new_harmony_submissions": 0,
+    "simulated_pairs": 2,
+    "genuine_local_observations": 1,
+    "real_cog_sha256": "f9f232f2743c2839835d59726456a7d2eaa3bf7c04188d5a2d5d87cfd650df5d",
+    "pdf_visual_qa": "RGB and simulated radar: 2 rendered pages each; simulation label on every page",
+    "browser_qa": [
+      "default automatic RGB comparison",
+      "all 4 views",
+      "keyboard divider 50 to 51",
+      "all 5 thumbnails loaded",
+      "simulated radar common-grid completion",
+      "390px mobile view; document client width equals scroll width",
+      "real/simulated mixing disabled"
+    ],
+    "post_fix_local_http_checks": [
+      {
+        "kind": "simulated_rgb",
+        "status": "completed",
+        "seconds": 1.09,
+        "pdf_http": 200,
+        "pdf_bytes": 1034567
+      },
+      {
+        "kind": "simulated_radar",
+        "status": "completed",
+        "seconds": 1.03,
+        "pdf_http": 200,
+        "pdf_bytes": 1125244
+      },
+      {
+        "kind": "simulated_rgb",
+        "status": "completed",
+        "seconds": 1.0,
+        "pdf_http": 200,
+        "pdf_bytes": 1034566
+      }
+    ],
+    "browser_pdf_download": "succeeded; actual downloaded PDF",
+    "recorded_at_utc": "2026-11-15T09:06:33.943160+00:00"
+  },
+  "manifest_sha256": "e7237d8c2708ed3501c148aea5bb8096e5475338da683d59c5be27c0ae91df43"
+}

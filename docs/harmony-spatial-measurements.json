@@ -1,0 +1,103 @@
+{
+  "requested_bbox_wgs84": [
+    88.75,
+    21.85,
+    88.78,
+    21.88
+  ],
+  "crs": "EPSG:32645",
+  "dimensions": [
+    313,
+    334
+  ],
+  "affine": [
+    10.0,
+    0.0,
+    680810.0,
+    0.0,
+    -10.0,
+    2420600.0
+  ],
+  "native_bounds": [
+    680810.0,
+    2417260.0,
+    683940.0,
+    2420600.0
+  ],
+  "corners_wgs84_NW_NE_SE_SW": [
+    [
+      88.75001738541567,
+      21.880234889089312
+    ],
+    [
+      88.78030086029081,
+      21.87991027280635
+    ],
+    [
+      88.77992687364363,
+      21.84974895616848
+    ],
+    [
+      88.74964975241748,
+      21.850073079995557
+    ]
+  ],
+  "geographic_envelope": [
+    88.74964975241748,
+    21.84974895616848,
+    88.78030086029081,
+    21.880234889089312
+  ],
+  "old_tolerance_degrees": 0.00029378058664528893,
+  "edge_difference_m_approx_W_S_E_N": [
+    36.20144972650991,
+    27.797644849838377,
+    31.096799053023453,
+    26.008953853622778
+  ],
+  "requested_aoi_projected_bounds": [
+    680808.4994709694,
+    2417252.320098227,
+    683947.2372494192,
+    2420609.5747688184
+  ],
+  "requested_aoi_pixel_bounds": [
+    -0.15005290305998642,
+    -0.9574768818565644,
+    313.7237249419268,
+    334.76799017729354
+  ],
+  "padding_pixels_left_top_right_bottom": [
+    -0.15005290305998642,
+    -0.9574768818565644,
+    -0.7237249419267755,
+    -0.7679901772935409
+  ],
+  "densification_convergence_pixels": 4.6202429107942517e-07,
+  "axis_order": "always_xy=True; longitude,latitude",
+  "outer_raster_area_native_units_squared": 10454200.0,
+  "aoi_area_native_units_squared": 10300590.584708972,
+  "outer_intersection_aoi_area_native_units_squared": 10291672.314038852,
+  "positive_pixel_cell_area_native_units_squared": 10293300.0,
+  "valid_cell_intersection_aoi_area_native_units_squared": 10279057.228704907,
+  "valid_cell_outside_aoi_area_native_units_squared": 14242.771295089688,
+  "raster_pixels": 104542,
+  "aoi_center_count_in_raster": 102933,
+  "expected_aoi_center_count_full_grid": 103015,
+  "aoi_centers_missing_at_raster_edge": 82,
+  "max_missing_center_depth_pixels": 0.441473996412775,
+  "positive_centers_inside_aoi": 102933,
+  "positive_centers_outside_aoi": 0,
+  "positive_cell_count_disjoint_from_aoi": 0,
+  "positive_pixels": 102933,
+  "valid_footprint_polygon_count": 1,
+  "positive_centers_inside_aoi_direct_inverse_lonlat": 102933,
+  "positive_center_lonlat_bounds": [
+    88.75000007037816,
+    21.85000028633311,
+    88.77999992344213,
+    21.879999944578845
+  ],
+  "source_identity_in_tags": false,
+  "variable_identity_in_tags": false
+}

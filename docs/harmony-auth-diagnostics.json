@@ -1,0 +1,157 @@
+{
+  "started_at_utc": "2026-11-14T19:19:22.691556+00:00",
+  "token_present": true,
+  "processing_enabled_before": false,
+  "processing_submitted": false,
+  "request_policy": {
+    "methods": [
+      "GET"
+    ],
+    "attempts_per_probe": 1,
+    "http_connect_seconds": 4,
+    "http_read_seconds": 6,
+    "http_child_deadline_seconds": 15,
+    "max_same_origin_redirects": 2,
+    "credential_cross_origin_forwarding": false
+  },
+  "proxy": {
+    "discovered_schemes": [],
+    "harmony_bypassed": false,
+    "environment_variables_present": {
+      "HTTP_PROXY": false,
+      "HTTPS_PROXY": false,
+      "ALL_PROXY": false,
+      "NO_PROXY": false,
+      "http_proxy": false,
+      "https_proxy": false,
+      "all_proxy": false,
+      "no_proxy": false,
+      "SSL_CERT_FILE": false,
+      "SSL_CERT_DIR": false,
+      "REQUESTS_CA_BUNDLE": false,
+      "CURL_CA_BUNDLE": false
+    }
+  },
+  "network": [
+    {
+      "host": "harmony.earthdata.nasa.gov",
+      "probe": "dns",
+      "status": "succeeded",
+      "ipv4_count": 4,
+      "ipv6_count": 0,
+      "elapsed_seconds": 0.031
+    },
+    {
+      "host": "harmony.earthdata.nasa.gov",
+      "probe": "tls",
+      "status": "succeeded",
+      "stage": "complete",
+      "tcp_connected": true,
+      "protocol": "TLSv1.3",
+      "certificate_hostname_verified": true,
+      "elapsed_seconds": 0.375
+    },
+    {
+      "host": "urs.earthdata.nasa.gov",
+      "probe": "dns",
+      "status": "succeeded",
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "elapsed_seconds": 0.031
+    },
+    {
+      "host": "urs.earthdata.nasa.gov",
+      "probe": "tls",
+      "status": "succeeded",
+      "stage": "complete",
+      "tcp_connected": true,
+      "protocol": "TLSv1.3",
+      "certificate_hostname_verified": true,
+      "elapsed_seconds": 1.015
+    }
+  ],
+  "https": [
+    {
+      "method": "GET",
+      "endpoint_category": "collection_capabilities",
+      "authenticated_request": false,
+      "trust_environment": true,
+      "http_status": 200,
+      "category": "http_success",
+      "token_accepted": null,
+      "redirects": [],
+      "stage": "complete",
+      "attempts": 1,
+      "elapsed_seconds": 1.125,
+      "probe": "capabilities",
+      "configuration": "environment"
+    },
+    {
+      "method": "GET",
+      "endpoint_category": "jobs_list",
+      "authenticated_request": false,
+      "trust_environment": true,
+      "http_status": 303,
+      "category": "login_redirect",
+      "token_accepted": null,
+      "redirects": [
+        {
+          "http_status": 303,
+          "destination_category": "earthdata_login"
+        }
+      ],
+      "stage": "response_headers_received",
+      "attempts": 1,
+      "elapsed_seconds": 0.735,
+      "probe": "jobs_public",
+      "configuration": "environment"
+    },
+    {
+      "method": "GET",
+      "endpoint_category": "jobs_list",
+      "authenticated_request": true,
+      "trust_environment": true,
+      "http_status": null,
+      "category": "read_timeout",
+      "token_accepted": null,
+      "redirects": [],
+      "stage": "waiting_response_headers",
+      "attempts": 1,
+      "elapsed_seconds": 6.422,
+      "probe": "jobs_auth",
+      "configuration": "environment"
+    },
+    {
+      "method": "GET",
+      "endpoint_category": "jobs_list",
+      "authenticated_request": true,
+      "trust_environment": false,
+      "http_status": null,
+      "category": "read_timeout",
+      "token_accepted": null,
+      "redirects": [],
+      "stage": "waiting_response_headers",
+      "attempts": 1,
+      "elapsed_seconds": 6.438,
+      "probe": "jobs_auth",
+      "configuration": "direct"
+    }
+  ],
+  "harmony_py": {
+    "client": "harmony-py",
+    "endpoint_category": "jobs_list",
+    "method": "GET",
+    "token_accepted": null,
+    "http_status": null,
+    "redirect_following": false,
+    "retry_count": 0,
+    "trust_environment": false,
+    "client_version": "1.8.0",
+    "category": "read_timeout",
+    "elapsed_seconds": 7.0
+  },
+  "finished_at_utc": "2026-11-14T19:19:39.179962+00:00",
+  "processing_enabled_after": false,
+  "tracked_job_count_before": 0,
+  "tracked_job_count_after": 0
+}

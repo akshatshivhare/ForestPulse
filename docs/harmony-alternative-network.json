@@ -1,0 +1,25 @@
+{
+  "started_at_utc": "2026-11-14T19:44:31.485569+00:00",
+  "network_type": "trusted_mobile_hotspot",
+  "network_confirmation": "user_attested_switch",
+  "alternative_network_tested": true,
+  "processing_enabled_before": false,
+  "processing_submitted": false,
+  "result": {
+    "method": "GET",
+    "endpoint_category": "jobs_list",
+    "authenticated_request": true,
+    "trust_environment": false,
+    "http_status": null,
+    "category": "read_timeout",
+    "token_accepted": null,
+    "redirects": [],
+    "stage": "waiting_response_headers",
+    "attempts": 1,
+    "elapsed_seconds": 6.5
+  },
+  "finished_at_utc": "2026-11-14T19:44:38.431724+00:00",
+  "processing_enabled_after": false,
+  "tracked_jobs_before": 0,
+  "tracked_jobs_after": 0
+}

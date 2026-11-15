@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "images": [
+    {
+      "id": "sim-rgb-before",
+      "name": "Simulated optical delta · baseline",
+      "file": "datasets/sundarbans-simulated-v1/rgb-before.png",
+      "area_id": "sundarbans-simulated-rgb-v1",
+      "area": "Sundarbans-inspired illustrative tile; not a real observed landscape",
+      "source": "ForestPulse deterministic procedural simulation v1 (seed 20261115)",
+      "sensor": "SIMULATED RGB camera",
+      "data_type": "rgb",
+      "units": "display_rgb",
+      "is_simulated": true,
+      "acquisition_date": null,
+      "scenario_date": "2026-01-01",
+      "date_kind": "simulated_scenario",
+      "pair_group": "sim-rgb-v1",
+      "frequency": null,
+      "polarization": null,
+      "calibration": "uncalibrated_display_rgb",
+      "provenance": {
+        "generator": "scripts/generate_comparison_demo.py",
+        "seed": 20261115
+      },
+      "notice": "SIMULATED. Scenario dates are labels, not satellite acquisition dates. No real forest-change evidence."
+    },
+    {
+      "id": "sim-rgb-after",
+      "name": "Simulated optical delta · follow-up",
+      "file": "datasets/sundarbans-simulated-v1/rgb-after.png",
+      "area_id": "sundarbans-simulated-rgb-v1",
+      "area": "Sundarbans-inspired illustrative tile; not a real observed landscape",
+      "source": "ForestPulse deterministic procedural simulation v1 (seed 20261115)",
+      "sensor": "SIMULATED RGB camera",
+      "data_type": "rgb",
+      "units": "display_rgb",
+      "is_simulated": true,
+      "acquisition_date": null,
+      "scenario_date": "2026-02-01",
+      "date_kind": "simulated_scenario",
+      "pair_group": "sim-rgb-v1",
+      "frequency": null,
+      "polarization": null,
+      "calibration": "uncalibrated_display_rgb",
+      "provenance": {
+        "generator": "scripts/generate_comparison_demo.py",
+        "seed": 20261115
+      },
+      "notice": "SIMULATED. Scenario dates are labels, not satellite acquisition dates. No real forest-change evidence."
+    },
+    {
+      "id": "sim-sar-before",
+      "name": "Simulated radar power · baseline",
+      "file": "datasets/sundarbans-simulated-v1/sar-before.tif",
+      "area_id": "sundarbans-simulated-sar-v1",
+      "area": "Sundarbans-inspired illustrative tile; not a real observed landscape",
+      "source": "ForestPulse deterministic procedural simulation v1 (seed 20261115)",
+      "sensor": "SIMULATED radar",
+      "data_type": "sar_power",
+      "units": "gamma0_linear_power",
+      "is_simulated": true,
+      "acquisition_date": null,
+      "scenario_date": "2026-01-01",
+      "date_kind": "simulated_scenario",
+      "pair_group": "sim-sar-v1",
+      "frequency": "A",
+      "polarization": "HH",
+      "calibration": "synthetic_power",
+      "provenance": {
+        "generator": "scripts/generate_comparison_demo.py",
+        "seed": 20261115
+      },
+      "notice": "SIMULATED. Scenario dates are labels, not satellite acquisition dates. No real forest-change evidence."
+    },
+    {
+      "id": "sim-sar-after",
+      "name": "Simulated radar power · follow-up",
+      "file": "datasets/sundarbans-simulated-v1/sar-after.tif",
+      "area_id": "sundarbans-simulated-sar-v1",
+      "area": "Sundarbans-inspired illustrative tile; not a real observed landscape",
+      "source": "ForestPulse deterministic procedural simulation v1 (seed 20261115)",
+      "sensor": "SIMULATED radar",
+      "data_type": "sar_power",
+      "units": "gamma0_linear_power",
+      "is_simulated": true,
+      "acquisition_date": null,
+      "scenario_date": "2026-02-01",
+      "date_kind": "simulated_scenario",
+      "pair_group": "sim-sar-v1",
+      "frequency": "A",
+      "polarization": "HH",
+      "calibration": "synthetic_power",
+      "provenance": {
+        "generator": "scripts/generate_comparison_demo.py",
+        "seed": 20261115
+      },
+      "notice": "SIMULATED. Scenario dates are labels, not satellite acquisition dates. No real forest-change evidence."
+    },
+    {
+      "id": "nisar-20261023-hhhh",
+      "name": "NISAR frequency A HH power · 23 Oct 2026",
+      "file": "artifacts/harmony-spatial-audit/first-real-cog.tif",
+      "area_id": "sundarbans-pilot-test-sector",
+      "area": "Sundarbans test sector [88.75, 21.85, 88.78, 21.88]",
+      "source": "NASA NISAR / ASF; G4405780437-ASF",
+      "sensor": "NISAR L-SAR",
+      "data_type": "sar_power",
+      "units": "linear_HHHH_power",
+      "is_simulated": false,
+      "acquisition_date": "2026-10-23",
+      "scenario_date": null,
+      "date_kind": "satellite_acquisition",
+      "pair_group": "nisar-track170-frame13-frequencyA-HH",
+      "frequency": "A",
+      "polarization": "HH",
+      "calibration": "normalization_not_independently_verified",
+      "provenance": {
+        "granule_id": "G4405780437-ASF",
+        "acquisition_start_utc": "2026-10-23T23:29:18.000000Z",
+        "collection": "C3622241360-ASF",
+        "variable": "/science/LSAR/GCOV/grids/frequencyA/HHHH",
+        "sha256": "f9f232f2743c2839835d59726456a7d2eaa3bf7c04188d5a2d5d87cfd650df5d"
+      },
+      "notice": "REAL observation, spatially validated. No matched second real COG is preloaded. Science QA, tides and comparison remain unverified."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "started_at_utc": "2026-11-14T19:38:28.735242+00:00",
+  "network_type": "original_network_transport_unspecified",
+  "network_confirmation": "user_confirmed_original_network",
+  "alternative_network_tested": false,
+  "processing_enabled_before": false,
+  "processing_submitted": false,
+  "result": {
+    "endpoint_template": "GET https://urs.earthdata.nasa.gov/api/users/{uid}",
+    "mechanism": "documented scoped user-profile access; not general token introspection",
+    "credential_file_modified": false,
+    "redirects_followed": false,
+    "automatic_retries": 0,
+    "http_status": 401,
+    "category": "unauthorized",
+    "token_accepted_for_profile_api": false,
+    "profile_identity_match": null,
+    "stage": "response_headers_received",
+    "attempts": 1,
+    "elapsed_seconds": 1.422
+  },
+  "finished_at_utc": "2026-11-14T19:38:30.576956+00:00",
+  "processing_enabled_after": false,
+  "tracked_jobs_before": 0,
+  "tracked_jobs_after": 0
+}

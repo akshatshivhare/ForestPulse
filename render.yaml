@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: forestpulse-api
+    runtime: python
+    plan: free
+    autoDeployTrigger: off
+    buildCommand: pip install -r backend/requirements-production.txt && python -m scripts.check_deployment
+    startCommand: python -m uvicorn backend.app.main:app --host 0.0.0.0 --port $PORT --workers 1 --no-access-log
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.13
+      - key: FORESTPULSE_ENV
+        value: production
+      - key: HARMONY_PROCESSING_ENABLED
+        value: "false"
+      - key: ALLOWED_ORIGINS
+        sync: false
+      - key: CMR_TIMEOUT_SECONDS
+        value: "30"
+      - key: CMR_CACHE_SECONDS
+        value: "300"

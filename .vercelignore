@@ -1,0 +1,18 @@
+# Vercel hosts the frontend only. Source imagery is served by Render.
+backend/
+datasets/
+docs/
+scripts/
+artifacts/
+output/
+tmp/
+.venv/
+.uv-cache/
+.python/
+node_modules/
+dist/
+.env*
+*.log
+*.tsbuildinfo
+cmr-*-verification.json
+render.yaml

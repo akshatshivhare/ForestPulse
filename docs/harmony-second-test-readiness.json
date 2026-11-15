@@ -1,0 +1,701 @@
+{
+  "started_at_utc": "2026-11-15T08:02:25.742089+00:00",
+  "status": "READY",
+  "auth_mode": "earthdata_password",
+  "processing_enabled_before": false,
+  "processing_submissions": 0,
+  "downloads": 0,
+  "jobs_before": 1,
+  "pilot_bbox": [
+    88.4,
+    21.55,
+    89.1,
+    22.25
+  ],
+  "subset_bbox": [
+    88.75,
+    21.85,
+    88.78,
+    21.88
+  ],
+  "scientific_comparison_ready": false,
+  "first_cache_sha256_before": "f9f232f2743c2839835d59726456a7d2eaa3bf7c04188d5a2d5d87cfd650df5d",
+  "first_reference_gate_before": false,
+  "submission_gate": "processing_disabled",
+  "dry_run": {
+    "status": "dry_run",
+    "submitted": false,
+    "plan": {
+      "request_url": "https://harmony.earthdata.nasa.gov/C3622241360-ASF/ogc-api-coverages/1.0.0/collections/V4137651715-ASF/coverage/rangeset?granuleId=G4405182121-ASF&subset=lon%2888.75%3A88.78%29&subset=lat%2821.85%3A21.88%29&format=image%2Ftiff&forceAsync=true&maxResults=1&ignoreErrors=false",
+      "method": "GET",
+      "bbox": [
+        88.75,
+        21.85,
+        88.78,
+        21.88
+      ],
+      "variable": "/science/LSAR/GCOV/grids/frequencyA/HHHH",
+      "variable_id": "V4137651715-ASF",
+      "scene": {
+        "id": "G4405182121-ASF",
+        "name": "NISAR_L2_PR_GCOV_034_170_A_013_4005_DHDH_A_20261104T232918_20261104T232952_P05036_N_F_J_001",
+        "collection_id": "C3622241360-ASF",
+        "collection_name": "NISAR_L2_GCOV_V1",
+        "collection_version": "1",
+        "start_time": "2026-11-04T23:29:18.000000Z",
+        "end_time": "2026-11-04T23:29:52.999342Z",
+        "date": "2026-11-04",
+        "product": "GCOV",
+        "product_version": "1.0.20",
+        "frequencies": [
+          "A",
+          "B"
+        ],
+        "polarizations": {
+          "A": [
+            "HH",
+            "HV"
+          ],
+          "B": [
+            "HH",
+            "HV"
+          ]
+        },
+        "bandwidth_mhz": {
+          "A": "40",
+          "B": "5"
+        },
+        "instruments": [
+          "L-SAR"
+        ],
+        "orbit_direction": "ASCENDING",
+        "track": "170",
+        "frame": "13",
+        "look_direction": "LEFT",
+        "incidence_angle": null,
+        "orbit_numbers": [
+          6670
+        ],
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                90.46695,
+                21.99603
+              ],
+              [
+                89.89525,
+                24.07273
+              ],
+              [
+                87.41771,
+                23.46222
+              ],
+              [
+                88.02476,
+                21.39758
+              ],
+              [
+                90.46695,
+                21.99603
+              ]
+            ]
+          ]
+        },
+        "footprint_source": "polygon",
+        "aoi_coverage_percent_approx": 100.0,
+        "metadata_url": "https://cmr.earthdata.nasa.gov/search/concepts/G4405182121-ASF.umm_json",
+        "attributes": {
+          "ASCENDING_DESCENDING": [
+            "ASCENDING"
+          ],
+          "FRAME_NUMBER": [
+            "13"
+          ],
+          "FREQUENCIES": [
+            "A",
+            "B"
+          ],
+          "FREQUENCY_A_POLARIZATION": [
+            "HH",
+            "HV"
+          ],
+          "FREQUENCY_A_POLARIZATION_CONCAT": [
+            "HH+HV"
+          ],
+          "FREQUENCY_A_RANGE_BANDWIDTH": [
+            "40"
+          ],
+          "FREQUENCY_B_POLARIZATION": [
+            "HH",
+            "HV"
+          ],
+          "FREQUENCY_B_POLARIZATION_CONCAT": [
+            "HH+HV"
+          ],
+          "FREQUENCY_B_RANGE_BANDWIDTH": [
+            "5"
+          ],
+          "FULL_FRAME": [
+            "TRUE"
+          ],
+          "JOINT_OBSERVATION": [
+            "TRUE"
+          ],
+          "ORBIT_TYPE": [
+            "MOE"
+          ],
+          "PROCESSING_CENTER": [
+            "JPL"
+          ],
+          "PROCESSING_LEVEL": [
+            "L2"
+          ],
+          "PRODUCTION_PIPELINE": [
+            "PR"
+          ],
+          "PRODUCT_TYPE": [
+            "GCOV"
+          ],
+          "PRODUCT_TYPE_DESC": [
+            "Geocoded Polarimetric Covariance"
+          ],
+          "PRODUCT_VERSION": [
+            "1.0.20"
+          ],
+          "RANGE_BANDWIDTH_CONCAT": [
+            "40+5"
+          ],
+          "STACK_ID": [
+            "170_A_013"
+          ],
+          "TRACK_NUMBER": [
+            "170"
+          ]
+        },
+        "metadata_revision": "2026-11-08T02:27:10.528Z"
+      },
+      "collection": {
+        "id": "C3622241360-ASF",
+        "short_name": "NISAR_L2_GCOV_V1",
+        "title": "NISAR Validated Geocoded Polarimetric Covariance Product (Version 1)",
+        "version": "1",
+        "provider": "ASF",
+        "maturity": "validated",
+        "metadata_url": "https://cmr.earthdata.nasa.gov/search/concepts/C3622241360-ASF.umm_json"
+      },
+      "granule_revision": 1,
+      "service_id": "S4389714698-ASF",
+      "service_version": "4.0.0",
+      "planned_at": "2026-11-15T08:02:29.942562+00:00",
+      "analysis_ready": false,
+      "notice": "Candidate extraction only. No mangrove change or scientific readiness is established."
+    },
+    "setup": {
+      "implemented": true,
+      "phase": "2B",
+      "real_processing_enabled": false,
+      "authentication_configured": true,
+      "authentication_method": "earthdata_password",
+      "raw_file_upload_required": false,
+      "authentication_verified": false,
+      "state": "processing_disabled",
+      "candidate_ids": [
+        "G4405780437-ASF",
+        "G4405182121-ASF"
+      ],
+      "subset_bbox": [
+        88.75,
+        21.85,
+        88.78,
+        21.88
+      ],
+      "variable": "/science/LSAR/GCOV/grids/frequencyA/HHHH",
+      "second_scene_unlocked": false,
+      "limits": {
+        "file_bytes": 67108864,
+        "cache_bytes": 268435456,
+        "retention_seconds": 86400,
+        "job_timeout_seconds": 1200,
+        "max_jobs": 50,
+        "concurrent_jobs": 1
+      },
+      "analysis_ready": false
+    }
+  },
+  "first_current_metadata": {
+    "id": "G4405780437-ASF",
+    "name": "NISAR_L2_PR_GCOV_033_170_A_013_4005_DHDH_A_20261023T232918_20261023T232952_P05036_N_F_J_001",
+    "collection_id": "C3622241360-ASF",
+    "collection_name": "NISAR_L2_GCOV_V1",
+    "collection_version": "1",
+    "start_time": "2026-10-23T23:29:18.000000Z",
+    "end_time": "2026-10-23T23:29:52.999342Z",
+    "date": "2026-10-23",
+    "product": "GCOV",
+    "product_version": "1.0.20",
+    "frequencies": [
+      "A",
+      "B"
+    ],
+    "polarizations": {
+      "A": [
+        "HH",
+        "HV"
+      ],
+      "B": [
+        "HH",
+        "HV"
+      ]
+    },
+    "bandwidth_mhz": {
+      "A": "40",
+      "B": "5"
+    },
+    "instruments": [
+      "L-SAR"
+    ],
+    "orbit_direction": "ASCENDING",
+    "track": "170",
+    "frame": "13",
+    "look_direction": "LEFT",
+    "incidence_angle": null,
+    "orbit_numbers": [
+      6497
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            90.45895,
+            22.02588
+          ],
+          [
+            89.88696,
+            24.10253
+          ],
+          [
+            87.40878,
+            23.4918
+          ],
+          [
+            88.01621,
+            21.42722
+          ],
+          [
+            90.45895,
+            22.02588
+          ]
+        ]
+      ]
+    },
+    "footprint_source": "polygon",
+    "aoi_coverage_percent_approx": 100.0,
+    "metadata_url": "https://cmr.earthdata.nasa.gov/search/concepts/G4405780437-ASF.umm_json",
+    "attributes": {
+      "ASCENDING_DESCENDING": [
+        "ASCENDING"
+      ],
+      "FRAME_NUMBER": [
+        "13"
+      ],
+      "FREQUENCIES": [
+        "A",
+        "B"
+      ],
+      "FREQUENCY_A_POLARIZATION": [
+        "HH",
+        "HV"
+      ],
+      "FREQUENCY_A_POLARIZATION_CONCAT": [
+        "HH+HV"
+      ],
+      "FREQUENCY_A_RANGE_BANDWIDTH": [
+        "40"
+      ],
+      "FREQUENCY_B_POLARIZATION": [
+        "HH",
+        "HV"
+      ],
+      "FREQUENCY_B_POLARIZATION_CONCAT": [
+        "HH+HV"
+      ],
+      "FREQUENCY_B_RANGE_BANDWIDTH": [
+        "5"
+      ],
+      "FULL_FRAME": [
+        "TRUE"
+      ],
+      "JOINT_OBSERVATION": [
+        "TRUE"
+      ],
+      "ORBIT_TYPE": [
+        "MOE"
+      ],
+      "PROCESSING_CENTER": [
+        "JPL"
+      ],
+      "PROCESSING_LEVEL": [
+        "L2"
+      ],
+      "PRODUCTION_PIPELINE": [
+        "PR"
+      ],
+      "PRODUCT_TYPE": [
+        "GCOV"
+      ],
+      "PRODUCT_TYPE_DESC": [
+        "Geocoded Polarimetric Covariance"
+      ],
+      "PRODUCT_VERSION": [
+        "1.0.20"
+      ],
+      "RANGE_BANDWIDTH_CONCAT": [
+        "40+5"
+      ],
+      "STACK_ID": [
+        "170_A_013"
+      ],
+      "TRACK_NUMBER": [
+        "170"
+      ]
+    },
+    "metadata_revision": "2026-11-08T15:55:14.943Z"
+  },
+  "comparison": {
+    "status": "unknown",
+    "checks": [
+      {
+        "key": "distinct_dates",
+        "label": "Different observation dates",
+        "status": "compatible",
+        "left": "2026-10-23",
+        "right": "2026-11-04"
+      },
+      {
+        "key": "product",
+        "label": "Product type",
+        "status": "compatible",
+        "left": "GCOV",
+        "right": "GCOV"
+      },
+      {
+        "key": "collection_name",
+        "label": "Collection / maturity",
+        "status": "compatible",
+        "left": "NISAR_L2_GCOV_V1",
+        "right": "NISAR_L2_GCOV_V1"
+      },
+      {
+        "key": "collection_version",
+        "label": "Collection version",
+        "status": "compatible",
+        "left": "1",
+        "right": "1"
+      },
+      {
+        "key": "product_version",
+        "label": "Product version",
+        "status": "compatible",
+        "left": "1.0.20",
+        "right": "1.0.20"
+      },
+      {
+        "key": "instruments",
+        "label": "Radar instrument / band",
+        "status": "compatible",
+        "left": [
+          "L-SAR"
+        ],
+        "right": [
+          "L-SAR"
+        ]
+      },
+      {
+        "key": "frequencies",
+        "label": "Frequency sub-bands",
+        "status": "compatible",
+        "left": [
+          "A",
+          "B"
+        ],
+        "right": [
+          "A",
+          "B"
+        ]
+      },
+      {
+        "key": "orbit_direction",
+        "label": "Orbit direction",
+        "status": "compatible",
+        "left": "ASCENDING",
+        "right": "ASCENDING"
+      },
+      {
+        "key": "track",
+        "label": "Relative track",
+        "status": "compatible",
+        "left": "170",
+        "right": "170"
+      },
+      {
+        "key": "frame",
+        "label": "Frame",
+        "status": "compatible",
+        "left": "13",
+        "right": "13"
+      },
+      {
+        "key": "look_direction",
+        "label": "Look direction",
+        "status": "compatible",
+        "left": "LEFT",
+        "right": "LEFT"
+      },
+      {
+        "key": "polarizations",
+        "label": "Polarization per frequency",
+        "status": "compatible",
+        "left": {
+          "A": [
+            "HH",
+            "HV"
+          ],
+          "B": [
+            "HH",
+            "HV"
+          ]
+        },
+        "right": {
+          "A": [
+            "HH",
+            "HV"
+          ],
+          "B": [
+            "HH",
+            "HV"
+          ]
+        }
+      },
+      {
+        "key": "bandwidth_mhz",
+        "label": "Range bandwidth per frequency",
+        "status": "compatible",
+        "left": {
+          "A": "40",
+          "B": "5"
+        },
+        "right": {
+          "A": "40",
+          "B": "5"
+        }
+      },
+      {
+        "key": "overlap",
+        "label": "Shared coverage within pilot AOI",
+        "status": "compatible",
+        "left": 100.0,
+        "right": "percent of AOI (approx.)"
+      },
+      {
+        "key": "incidence_angle",
+        "label": "Incidence angle",
+        "status": "unknown",
+        "left": null,
+        "right": null
+      }
+    ],
+    "shared_aoi_coverage_percent_approx": 100.0,
+    "incidence_angle": {
+      "left": null,
+      "right": null,
+      "status": "unknown"
+    },
+    "analysis_ready": false,
+    "notice": "Metadata screening only. Compatible means candidate metadata match, not scientific readiness. Incidence angle, tides, calibration, co-registration and mangrove masks require Phase 2 validation."
+  },
+  "sources": [
+    {
+      "url": "https://cmr.earthdata.nasa.gov/search/granules.umm_json?concept_id=G4405182121-ASF&page_size=1",
+      "retrieved_at_utc": "2026-11-15T08:02:26.867308+00:00",
+      "result": "successful_json",
+      "sha256_canonical_json": "26f86c1b50a29ce2873ff5f6c9ef9065e3d0e5a8029d946c32c39544e477b2f8"
+    },
+    {
+      "url": "https://cmr.earthdata.nasa.gov/search/collections.umm_json?keyword=NISAR&page_size=200",
+      "retrieved_at_utc": "2026-11-15T08:02:28.120603+00:00",
+      "result": "successful_json",
+      "sha256_canonical_json": "6b96db924def85ca6e0c7e3516fe23e97ba356ebe0c988b6cd703e03a58d2f4f"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/capabilities?collectionId=C3622241360-ASF",
+      "retrieved_at_utc": "2026-11-15T08:02:29.278491+00:00",
+      "result": "successful_json",
+      "sha256_canonical_json": "5f78fb8c800adbdbebe77cb047f15036564de11a8ed127af6382039817ada3ac"
+    },
+    {
+      "url": "https://cmr.earthdata.nasa.gov/search/services.umm_json?concept_id=S4389714698-ASF",
+      "retrieved_at_utc": "2026-11-15T08:02:29.941553+00:00",
+      "result": "successful_json",
+      "sha256_canonical_json": "2bd62254b52f4bf03179a9d337142932ccc49a196d27d3116d93967084ea0bd3"
+    },
+    {
+      "url": "https://cmr.earthdata.nasa.gov/search/granules.umm_json?concept_id=G4405780437-ASF&page_size=1",
+      "retrieved_at_utc": "2026-11-15T08:02:30.661462+00:00",
+      "result": "successful_json",
+      "sha256_canonical_json": "2ef01be519ac28e8326763dfbadd50bab0d1d93654a28a6898faf5da241a5bb5"
+    }
+  ],
+  "first_granule_revision": 1,
+  "geometry_metadata": {
+    "first_orbit_domains": [
+      {
+        "OrbitNumber": 6497
+      }
+    ],
+    "second_orbit_domains": [
+      {
+        "OrbitNumber": 6670
+      }
+    ],
+    "first_pge": {
+      "PGEName": "GCOV_L_PGE",
+      "PGEVersion": "R05.03.2"
+    },
+    "second_pge": {
+      "PGEName": "GCOV_L_PGE",
+      "PGEVersion": "R05.03.2"
+    }
+  },
+  "service": {
+    "id": "S4389714698-ASF",
+    "name": "Harmony GDAL Adapter",
+    "version": "4.0.0",
+    "reformatting": [
+      {
+        "SupportedOutputFormats": [
+          "COG"
+        ],
+        "SupportedInputFormat": "HDF5"
+      }
+    ]
+  },
+  "selected_variable": {
+    "name": "/science/LSAR/GCOV/grids/frequencyA/HHHH",
+    "longName": "Frequency A HHHH",
+    "scienceKeywords": []
+  },
+  "advertised_covariance_variables": [
+    "/science/LSAR/GCOV/grids/frequencyA/HHHH",
+    "/science/LSAR/GCOV/grids/frequencyA/HVHV",
+    "/science/LSAR/GCOV/grids/frequencyB/HHHH",
+    "/science/LSAR/GCOV/grids/frequencyB/HVHV"
+  ],
+  "second_browse_evidence": {
+    "frequencyA_HHHH_listed": true,
+    "filenames": [
+      "NISAR_L2_PR_GCOV_034_170_A_013_4005_DHDH_A_20261104T232918_20261104T232952_P05036_N_F_J_001_NATIVE_A_HHHH.png"
+    ],
+    "images_read": false,
+    "source_arrays_read": false
+  },
+  "coverage": {
+    "actual_polygon_valid": true,
+    "subset_metadata_coverage_percent": 100.0,
+    "actual_second_scene_valid_pixels_verified": false,
+    "common_valid_pixel_footprint_verified": false
+  },
+  "estimated_output": {
+    "method": "spherical ground-size approximation, nominal 10m grid, one float32 band",
+    "approx_width_m": 3095.9,
+    "approx_height_m": 3335.9,
+    "nominal_pixel_spacing_m": 10,
+    "approx_columns": 310,
+    "approx_rows": 334,
+    "approx_pixels": 103540,
+    "uncompressed_samples_bytes_estimate": 414160,
+    "actual_grid_and_cog_size_verified": false,
+    "warning": "Excludes tiling, projection rotation, overviews, masks, metadata and compression; not an actual output size."
+  },
+  "limits": {
+    "file_bytes": 67108864,
+    "cache_bytes": 268435456,
+    "retention_seconds": 86400,
+    "job_timeout_seconds": 1200,
+    "max_jobs": 50,
+    "concurrent_jobs": 1
+  },
+  "unresolved_science": [
+    "incidence angles",
+    "second-scene valid pixels and QA",
+    "actual CRS/affine/grid alignment",
+    "tides and wetness",
+    "baseline mangrove mask",
+    "radiometric consistency and independent validation"
+  ],
+  "first_reference_registration": {
+    "registered": true,
+    "changed": true,
+    "source_sha256": "f9f232f2743c2839835d59726456a7d2eaa3bf7c04188d5a2d5d87cfd650df5d",
+    "reference_sha256": "f9f232f2743c2839835d59726456a7d2eaa3bf7c04188d5a2d5d87cfd650df5d",
+    "original_record_backup": "artifacts/harmony-spatial-audit/first-job-before-reference-registration.json",
+    "original_record_sha256": "3d2991f364f5349e54db8124b215591315df58ca46276eae648d38049cdecddb",
+    "existing_local_job_id": "52a89f3e-c229-4900-9246-f39aa928278f",
+    "new_local_job_created": false,
+    "new_harmony_job_submitted": false
+  },
+  "readiness_scope": "one second-scene extraction experiment pending explicit authorization; not scientific suitability",
+  "finished_at_utc": "2026-11-15T08:02:30.815935+00:00",
+  "processing_enabled_after": false,
+  "jobs_after": 1,
+  "first_cache_sha256_after": "f9f232f2743c2839835d59726456a7d2eaa3bf7c04188d5a2d5d87cfd650df5d",
+  "second_reference_gate_after": true,
+  "outer_deadline_seconds": 60,
+  "post_registration_setup": {
+    "implemented": true,
+    "phase": "2B",
+    "real_processing_enabled": false,
+    "authentication_configured": true,
+    "authentication_method": "earthdata_password",
+    "raw_file_upload_required": false,
+    "authentication_verified": false,
+    "state": "processing_disabled",
+    "candidate_ids": [
+      "G4405780437-ASF",
+      "G4405182121-ASF"
+    ],
+    "subset_bbox": [
+      88.75,
+      21.85,
+      88.78,
+      21.88
+    ],
+    "variable": "/science/LSAR/GCOV/grids/frequencyA/HHHH",
+    "second_scene_unlocked": true,
+    "limits": {
+      "file_bytes": 67108864,
+      "cache_bytes": 268435456,
+      "retention_seconds": 86400,
+      "job_timeout_seconds": 1200,
+      "max_jobs": 50,
+      "concurrent_jobs": 1
+    },
+    "analysis_ready": false
+  },
+  "post_run_checks": {
+    "checked_at_utc": "2026-11-15T08:08:41.322303+00:00",
+    "processing_enabled": false,
+    "first_audit_copy_preserved": true,
+    "first_managed_reference_verified": true,
+    "original_record_backup_verified": true,
+    "new_jobs": 0,
+    "local_job_count": 1,
+    "backend_passed": 148,
+    "backend_skipped": 1,
+    "frontend_passed": 9
+  },
+  "token_used": false,
+  "authenticated_requests_sent": 0
+}

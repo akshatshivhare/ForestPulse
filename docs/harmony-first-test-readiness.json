@@ -1,0 +1,837 @@
+{
+  "started_at_utc": "2026-11-15T06:30:03.341611+00:00",
+  "auth_mode": "earthdata_password",
+  "credentials_configured": true,
+  "token_used": false,
+  "pilot_bbox": [
+    88.4,
+    21.55,
+    89.1,
+    22.25
+  ],
+  "candidate_ids": [
+    "G4405780437-ASF",
+    "G4405182121-ASF"
+  ],
+  "processing_enabled_before": false,
+  "jobs_before": 0,
+  "processing_requests_sent": 0,
+  "downloads_attempted": 0,
+  "new_login_attempted": false,
+  "submission_gate": "processing_disabled",
+  "status": "READY",
+  "readiness_scope": "bounded first extraction experiment pending explicit authorization; not scientific or valid-pixel readiness",
+  "dry_run": {
+    "status": "dry_run",
+    "submitted": false,
+    "plan": {
+      "request_url": "https://harmony.earthdata.nasa.gov/C3622241360-ASF/ogc-api-coverages/1.0.0/collections/V4137651715-ASF/coverage/rangeset?granuleId=G4405780437-ASF&subset=lon%2888.75%3A88.78%29&subset=lat%2821.85%3A21.88%29&format=image%2Ftiff&forceAsync=true&maxResults=1&ignoreErrors=false",
+      "method": "GET",
+      "bbox": [
+        88.75,
+        21.85,
+        88.78,
+        21.88
+      ],
+      "variable": "/science/LSAR/GCOV/grids/frequencyA/HHHH",
+      "variable_id": "V4137651715-ASF",
+      "scene": {
+        "id": "G4405780437-ASF",
+        "name": "NISAR_L2_PR_GCOV_033_170_A_013_4005_DHDH_A_20261023T232918_20261023T232952_P05036_N_F_J_001",
+        "collection_id": "C3622241360-ASF",
+        "collection_name": "NISAR_L2_GCOV_V1",
+        "collection_version": "1",
+        "start_time": "2026-10-23T23:29:18.000000Z",
+        "end_time": "2026-10-23T23:29:52.999342Z",
+        "date": "2026-10-23",
+        "product": "GCOV",
+        "product_version": "1.0.20",
+        "frequencies": [
+          "A",
+          "B"
+        ],
+        "polarizations": {
+          "A": [
+            "HH",
+            "HV"
+          ],
+          "B": [
+            "HH",
+            "HV"
+          ]
+        },
+        "bandwidth_mhz": {
+          "A": "40",
+          "B": "5"
+        },
+        "instruments": [
+          "L-SAR"
+        ],
+        "orbit_direction": "ASCENDING",
+        "track": "170",
+        "frame": "13",
+        "look_direction": "LEFT",
+        "incidence_angle": null,
+        "orbit_numbers": [
+          6497
+        ],
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                90.45895,
+                22.02588
+              ],
+              [
+                89.88696,
+                24.10253
+              ],
+              [
+                87.40878,
+                23.4918
+              ],
+              [
+                88.01621,
+                21.42722
+              ],
+              [
+                90.45895,
+                22.02588
+              ]
+            ]
+          ]
+        },
+        "footprint_source": "polygon",
+        "aoi_coverage_percent_approx": 100.0,
+        "metadata_url": "https://cmr.earthdata.nasa.gov/search/concepts/G4405780437-ASF.umm_json",
+        "attributes": {
+          "ASCENDING_DESCENDING": [
+            "ASCENDING"
+          ],
+          "FRAME_NUMBER": [
+            "13"
+          ],
+          "FREQUENCIES": [
+            "A",
+            "B"
+          ],
+          "FREQUENCY_A_POLARIZATION": [
+            "HH",
+            "HV"
+          ],
+          "FREQUENCY_A_POLARIZATION_CONCAT": [
+            "HH+HV"
+          ],
+          "FREQUENCY_A_RANGE_BANDWIDTH": [
+            "40"
+          ],
+          "FREQUENCY_B_POLARIZATION": [
+            "HH",
+            "HV"
+          ],
+          "FREQUENCY_B_POLARIZATION_CONCAT": [
+            "HH+HV"
+          ],
+          "FREQUENCY_B_RANGE_BANDWIDTH": [
+            "5"
+          ],
+          "FULL_FRAME": [
+            "TRUE"
+          ],
+          "JOINT_OBSERVATION": [
+            "TRUE"
+          ],
+          "ORBIT_TYPE": [
+            "MOE"
+          ],
+          "PROCESSING_CENTER": [
+            "JPL"
+          ],
+          "PROCESSING_LEVEL": [
+            "L2"
+          ],
+          "PRODUCTION_PIPELINE": [
+            "PR"
+          ],
+          "PRODUCT_TYPE": [
+            "GCOV"
+          ],
+          "PRODUCT_TYPE_DESC": [
+            "Geocoded Polarimetric Covariance"
+          ],
+          "PRODUCT_VERSION": [
+            "1.0.20"
+          ],
+          "RANGE_BANDWIDTH_CONCAT": [
+            "40+5"
+          ],
+          "STACK_ID": [
+            "170_A_013"
+          ],
+          "TRACK_NUMBER": [
+            "170"
+          ]
+        },
+        "metadata_revision": "2026-11-08T15:55:14.943Z"
+      },
+      "collection": {
+        "id": "C3622241360-ASF",
+        "short_name": "NISAR_L2_GCOV_V1",
+        "title": "NISAR Validated Geocoded Polarimetric Covariance Product (Version 1)",
+        "version": "1",
+        "provider": "ASF",
+        "maturity": "validated",
+        "metadata_url": "https://cmr.earthdata.nasa.gov/search/concepts/C3622241360-ASF.umm_json"
+      },
+      "granule_revision": 1,
+      "service_id": "S4389714698-ASF",
+      "service_version": "4.0.0",
+      "planned_at": "2026-11-15T06:30:08.458370+00:00",
+      "analysis_ready": false,
+      "notice": "Candidate extraction only. No mangrove change or scientific readiness is established."
+    },
+    "setup": {
+      "implemented": true,
+      "phase": "2B",
+      "real_processing_enabled": false,
+      "authentication_configured": true,
+      "authentication_method": "earthdata_password",
+      "raw_file_upload_required": false,
+      "authentication_verified": false,
+      "state": "processing_disabled",
+      "candidate_ids": [
+        "G4405780437-ASF",
+        "G4405182121-ASF"
+      ],
+      "subset_bbox": [
+        88.75,
+        21.85,
+        88.78,
+        21.88
+      ],
+      "variable": "/science/LSAR/GCOV/grids/frequencyA/HHHH",
+      "second_scene_unlocked": false,
+      "limits": {
+        "file_bytes": 67108864,
+        "cache_bytes": 268435456,
+        "retention_seconds": 86400,
+        "job_timeout_seconds": 1200,
+        "max_jobs": 50,
+        "concurrent_jobs": 1
+      },
+      "analysis_ready": false
+    }
+  },
+  "sources": [
+    {
+      "url": "https://cmr.earthdata.nasa.gov/search/granules.umm_json?concept_id=G4405780437-ASF&page_size=1",
+      "retrieved_at_utc": "2026-11-15T06:30:05.541619+00:00",
+      "http_result": "successful_json",
+      "sha256_canonical_json": "fc3c16dc5bea9d6ad16056ee82f5e65c2fc30690a49a24275ae301b85d62a1e1"
+    },
+    {
+      "url": "https://cmr.earthdata.nasa.gov/search/collections.umm_json?keyword=NISAR&page_size=200",
+      "retrieved_at_utc": "2026-11-15T06:30:06.882952+00:00",
+      "http_result": "successful_json",
+      "sha256_canonical_json": "dcc636f0e7df22d84f43f1d6a1ff389d374b7e7f89d1710530824acd748da9f0"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/capabilities?collectionId=C3622241360-ASF",
+      "retrieved_at_utc": "2026-11-15T06:30:07.853817+00:00",
+      "http_result": "successful_json",
+      "sha256_canonical_json": "5f78fb8c800adbdbebe77cb047f15036564de11a8ed127af6382039817ada3ac"
+    },
+    {
+      "url": "https://cmr.earthdata.nasa.gov/search/services.umm_json?concept_id=S4389714698-ASF",
+      "retrieved_at_utc": "2026-11-15T06:30:08.458370+00:00",
+      "http_result": "successful_json",
+      "sha256_canonical_json": "fc4a82108998fd1df1bff088e0b52647234338c878e0c05ad2b1a812339ad844"
+    }
+  ],
+  "coverage": {
+    "metadata_polygon_valid": true,
+    "subset_contained_in_actual_cmr_polygon": true,
+    "subset_footprint_coverage_percent": 100.0,
+    "actual_radar_valid_pixels_verified": false,
+    "mangrove_mask_intersection_verified": false
+  },
+  "scene_layer_evidence": {
+    "frequencyA_HHHH_browse_listed": true,
+    "listed_browse_names": [
+      "NISAR_L2_PR_GCOV_033_170_A_013_4005_DHDH_A_20261023T232918_20261023T232952_P05036_N_F_J_001_NATIVE_A_HHHH.png"
+    ],
+    "browse_downloaded": false,
+    "source_array_inspected": false
+  },
+  "service": {
+    "name": "Harmony GDAL Adapter",
+    "version": "4.0.0",
+    "capabilities": {
+      "subsetting": {
+        "bbox": true,
+        "dimension": false,
+        "shape": false,
+        "temporal": false,
+        "variable": true
+      },
+      "reprojection": {
+        "supported": true,
+        "supportedProjections": [
+          {
+            "name": "Geographic",
+            "crs": "EPSG:4326"
+          },
+          {
+            "name": "WGS 84 / NSIDC Sea Ice Polar Stereographic North",
+            "crs": "EPSG:3413"
+          },
+          {
+            "name": "WGS 84 / Antarctic Polar Stereographic",
+            "crs": "EPSG:3031"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32601"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32602"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32603"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32604"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32605"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32606"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32607"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32608"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32609"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32610"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32611"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32612"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32613"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32614"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32615"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32616"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32617"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32618"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32619"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32620"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32621"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32622"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32623"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32624"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32625"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32626"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32627"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32628"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32629"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32630"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32631"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32632"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32633"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32634"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32635"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32636"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32637"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32638"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32639"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32640"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32641"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32642"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32643"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32644"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32645"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32646"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32647"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32648"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32649"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32650"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32651"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32652"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32653"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32654"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32655"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32656"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32657"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32658"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32659"
+          },
+          {
+            "name": "UTM Northern Hemisphere",
+            "crs": "EPSG:32660"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32701"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32702"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32703"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32704"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32705"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32706"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32707"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32708"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32709"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32710"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32711"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32712"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32713"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32714"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32715"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32716"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32717"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32718"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32719"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32720"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32721"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32722"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32723"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32724"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32725"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32726"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32727"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32728"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32729"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32730"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32731"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32732"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32733"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32734"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32735"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32736"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32737"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32738"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32739"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32740"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32741"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32742"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32743"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32744"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32745"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32746"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32747"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32748"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32749"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32750"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32751"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32752"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32753"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32754"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32755"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32756"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32757"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32758"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32759"
+          },
+          {
+            "name": "UTM Southern Hemisphere",
+            "crs": "EPSG:32760"
+          }
+        ],
+        "interpolationMethods": []
+      },
+      "averaging": {
+        "time": false,
+        "area": false
+      },
+      "concatenation": false,
+      "outputFormats": [
+        {
+          "name": "GEOTIFF",
+          "mimeType": "image/tiff"
+        }
+      ]
+    },
+    "reformatting": [
+      {
+        "SupportedOutputFormats": [
+          "COG"
+        ],
+        "SupportedInputFormat": "HDF5"
+      }
+    ]
+  },
+  "variable_metadata": {
+    "name": "/science/LSAR/GCOV/grids/frequencyA/HHHH",
+    "longName": "Frequency A HHHH",
+    "scienceKeywords": []
+  },
+  "estimated_output": {
+    "method": "spherical ground-size approximation, nominal 10m grid, one float32 band",
+    "approx_width_m": 3095.9,
+    "approx_height_m": 3335.9,
+    "nominal_pixel_spacing_m": 10,
+    "approx_columns": 310,
+    "approx_rows": 334,
+    "approx_pixels": 103540,
+    "uncompressed_samples_bytes_estimate": 414160,
+    "actual_grid_and_cog_size_verified": false,
+    "warning": "Excludes tiling, projection rotation, overviews, masks, metadata and compression; not an actual output size."
+  },
+  "limits": {
+    "file_bytes": 67108864,
+    "cache_bytes": 268435456,
+    "retention_seconds": 86400,
+    "job_timeout_seconds": 1200,
+    "max_jobs": 50,
+    "concurrent_jobs": 1
+  },
+  "cache_usage_bytes": 0,
+  "local_free_bytes": 99996610560,
+  "authentication_evidence": "docs/harmony-backend-password-auth.json",
+  "actual_processing_or_output_verified": false,
+  "jobs_after": 0,
+  "processing_enabled_after": false,
+  "finished_at_utc": "2026-11-15T06:30:08.460578+00:00",
+  "configuration": {
+    "auth_mode": "earthdata_password",
+    "credentials_present": true,
+    "credentials_preserved": true,
+    "processing_enabled": false,
+    "selector_changed": false
+  },
+  "outer_deadline_seconds": 55
+}

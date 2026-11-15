@@ -1,0 +1,643 @@
+{
+  "started_at_utc": "2026-11-15T06:49:46.149533+00:00",
+  "authentication_verified": true,
+  "status": "failed",
+  "submission_attempts": 1,
+  "remote_job_id": "c9136c2d-e1ec-4669-b738-4a455f3b8f66",
+  "events": [
+    {
+      "observed_at_utc": "2026-11-15T06:50:05.597087+00:00",
+      "status": "running",
+      "progress": 0.0,
+      "createdAt": "2026-11-15T06:50:03.650000+00:00",
+      "updatedAt": "2026-11-15T06:50:03.650000+00:00",
+      "dataExpiration": "2026-12-15T06:50:03.650000+00:00"
+    },
+    {
+      "observed_at_utc": "2026-11-15T06:50:11.843221+00:00",
+      "status": "running",
+      "progress": 9.0,
+      "createdAt": "2026-11-15T06:50:03.650000+00:00",
+      "updatedAt": "2026-11-15T06:50:04.286000+00:00",
+      "dataExpiration": "2026-12-15T06:50:03.650000+00:00"
+    },
+    {
+      "observed_at_utc": "2026-11-15T06:50:17.292841+00:00",
+      "status": "running",
+      "progress": 9.0,
+      "createdAt": "2026-11-15T06:50:03.650000+00:00",
+      "updatedAt": "2026-11-15T06:50:04.286000+00:00",
+      "dataExpiration": "2026-12-15T06:50:03.650000+00:00"
+    },
+    {
+      "observed_at_utc": "2026-11-15T06:50:23.234621+00:00",
+      "status": "running",
+      "progress": 9.0,
+      "createdAt": "2026-11-15T06:50:03.650000+00:00",
+      "updatedAt": "2026-11-15T06:50:04.286000+00:00",
+      "dataExpiration": "2026-12-15T06:50:03.650000+00:00"
+    },
+    {
+      "observed_at_utc": "2026-11-15T06:50:28.700492+00:00",
+      "status": "running",
+      "progress": 9.0,
+      "createdAt": "2026-11-15T06:50:03.650000+00:00",
+      "updatedAt": "2026-11-15T06:50:04.286000+00:00",
+      "dataExpiration": "2026-12-15T06:50:03.650000+00:00"
+    },
+    {
+      "observed_at_utc": "2026-11-15T06:50:34.430683+00:00",
+      "status": "running",
+      "progress": 9.0,
+      "createdAt": "2026-11-15T06:50:03.650000+00:00",
+      "updatedAt": "2026-11-15T06:50:04.286000+00:00",
+      "dataExpiration": "2026-12-15T06:50:03.650000+00:00"
+    },
+    {
+      "observed_at_utc": "2026-11-15T06:50:39.869985+00:00",
+      "status": "running",
+      "progress": 9.0,
+      "createdAt": "2026-11-15T06:50:03.650000+00:00",
+      "updatedAt": "2026-11-15T06:50:04.286000+00:00",
+      "dataExpiration": "2026-12-15T06:50:03.650000+00:00"
+    },
+    {
+      "observed_at_utc": "2026-11-15T06:50:45.514708+00:00",
+      "status": "running",
+      "progress": 9.0,
+      "createdAt": "2026-11-15T06:50:03.650000+00:00",
+      "updatedAt": "2026-11-15T06:50:04.286000+00:00",
+      "dataExpiration": "2026-12-15T06:50:03.650000+00:00"
+    },
+    {
+      "observed_at_utc": "2026-11-15T06:50:51.158068+00:00",
+      "status": "running",
+      "progress": 9.0,
+      "createdAt": "2026-11-15T06:50:03.650000+00:00",
+      "updatedAt": "2026-11-15T06:50:04.286000+00:00",
+      "dataExpiration": "2026-12-15T06:50:03.650000+00:00"
+    },
+    {
+      "observed_at_utc": "2026-11-15T06:50:56.618329+00:00",
+      "status": "running",
+      "progress": 9.0,
+      "createdAt": "2026-11-15T06:50:03.650000+00:00",
+      "updatedAt": "2026-11-15T06:50:04.286000+00:00",
+      "dataExpiration": "2026-12-15T06:50:03.650000+00:00"
+    },
+    {
+      "observed_at_utc": "2026-11-15T06:51:02.380249+00:00",
+      "status": "running",
+      "progress": 9.0,
+      "createdAt": "2026-11-15T06:50:03.650000+00:00",
+      "updatedAt": "2026-11-15T06:50:04.286000+00:00",
+      "dataExpiration": "2026-12-15T06:50:03.650000+00:00"
+    },
+    {
+      "observed_at_utc": "2026-11-15T06:51:08.116732+00:00",
+      "status": "running",
+      "progress": 9.0,
+      "createdAt": "2026-11-15T06:50:03.650000+00:00",
+      "updatedAt": "2026-11-15T06:50:04.286000+00:00",
+      "dataExpiration": "2026-12-15T06:50:03.650000+00:00"
+    },
+    {
+      "observed_at_utc": "2026-11-15T06:51:13.869073+00:00",
+      "status": "running",
+      "progress": 9.0,
+      "createdAt": "2026-11-15T06:50:03.650000+00:00",
+      "updatedAt": "2026-11-15T06:50:04.286000+00:00",
+      "dataExpiration": "2026-12-15T06:50:03.650000+00:00"
+    },
+    {
+      "observed_at_utc": "2026-11-15T06:51:19.328798+00:00",
+      "status": "running",
+      "progress": 9.0,
+      "createdAt": "2026-11-15T06:50:03.650000+00:00",
+      "updatedAt": "2026-11-15T06:50:04.286000+00:00",
+      "dataExpiration": "2026-12-15T06:50:03.650000+00:00"
+    },
+    {
+      "observed_at_utc": "2026-11-15T06:51:25.814568+00:00",
+      "status": "successful",
+      "progress": 100.0,
+      "createdAt": "2026-11-15T06:50:03.650000+00:00",
+      "updatedAt": "2026-11-15T06:51:19.847000+00:00",
+      "dataExpiration": "2026-12-15T06:50:03.650000+00:00"
+    }
+  ],
+  "plan": {
+    "request_url": "https://harmony.earthdata.nasa.gov/C3622241360-ASF/ogc-api-coverages/1.0.0/collections/V4137651715-ASF/coverage/rangeset?granuleId=G4405780437-ASF&subset=lon%2888.75%3A88.78%29&subset=lat%2821.85%3A21.88%29&format=image%2Ftiff&forceAsync=true&maxResults=1&ignoreErrors=false",
+    "method": "GET",
+    "bbox": [
+      88.75,
+      21.85,
+      88.78,
+      21.88
+    ],
+    "variable": "/science/LSAR/GCOV/grids/frequencyA/HHHH",
+    "variable_id": "V4137651715-ASF",
+    "scene": {
+      "id": "G4405780437-ASF",
+      "name": "NISAR_L2_PR_GCOV_033_170_A_013_4005_DHDH_A_20261023T232918_20261023T232952_P05036_N_F_J_001",
+      "collection_id": "C3622241360-ASF",
+      "collection_name": "NISAR_L2_GCOV_V1",
+      "collection_version": "1",
+      "start_time": "2026-10-23T23:29:18.000000Z",
+      "end_time": "2026-10-23T23:29:52.999342Z",
+      "date": "2026-10-23",
+      "product": "GCOV",
+      "product_version": "1.0.20",
+      "frequencies": [
+        "A",
+        "B"
+      ],
+      "polarizations": {
+        "A": [
+          "HH",
+          "HV"
+        ],
+        "B": [
+          "HH",
+          "HV"
+        ]
+      },
+      "bandwidth_mhz": {
+        "A": "40",
+        "B": "5"
+      },
+      "instruments": [
+        "L-SAR"
+      ],
+      "orbit_direction": "ASCENDING",
+      "track": "170",
+      "frame": "13",
+      "look_direction": "LEFT",
+      "incidence_angle": null,
+      "orbit_numbers": [
+        6497
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.45895,
+              22.02588
+            ],
+            [
+              89.88696,
+              24.10253
+            ],
+            [
+              87.40878,
+              23.4918
+            ],
+            [
+              88.01621,
+              21.42722
+            ],
+            [
+              90.45895,
+              22.02588
+            ]
+          ]
+        ]
+      },
+      "footprint_source": "polygon",
+      "aoi_coverage_percent_approx": 100.0,
+      "metadata_url": "https://cmr.earthdata.nasa.gov/search/concepts/G4405780437-ASF.umm_json",
+      "attributes": {
+        "ASCENDING_DESCENDING": [
+          "ASCENDING"
+        ],
+        "FRAME_NUMBER": [
+          "13"
+        ],
+        "FREQUENCIES": [
+          "A",
+          "B"
+        ],
+        "FREQUENCY_A_POLARIZATION": [
+          "HH",
+          "HV"
+        ],
+        "FREQUENCY_A_POLARIZATION_CONCAT": [
+          "HH+HV"
+        ],
+        "FREQUENCY_A_RANGE_BANDWIDTH": [
+          "40"
+        ],
+        "FREQUENCY_B_POLARIZATION": [
+          "HH",
+          "HV"
+        ],
+        "FREQUENCY_B_POLARIZATION_CONCAT": [
+          "HH+HV"
+        ],
+        "FREQUENCY_B_RANGE_BANDWIDTH": [
+          "5"
+        ],
+        "FULL_FRAME": [
+          "TRUE"
+        ],
+        "JOINT_OBSERVATION": [
+          "TRUE"
+        ],
+        "ORBIT_TYPE": [
+          "MOE"
+        ],
+        "PROCESSING_CENTER": [
+          "JPL"
+        ],
+        "PROCESSING_LEVEL": [
+          "L2"
+        ],
+        "PRODUCTION_PIPELINE": [
+          "PR"
+        ],
+        "PRODUCT_TYPE": [
+          "GCOV"
+        ],
+        "PRODUCT_TYPE_DESC": [
+          "Geocoded Polarimetric Covariance"
+        ],
+        "PRODUCT_VERSION": [
+          "1.0.20"
+        ],
+        "RANGE_BANDWIDTH_CONCAT": [
+          "40+5"
+        ],
+        "STACK_ID": [
+          "170_A_013"
+        ],
+        "TRACK_NUMBER": [
+          "170"
+        ]
+      },
+      "metadata_revision": "2026-11-08T15:55:14.943Z"
+    },
+    "collection": {
+      "id": "C3622241360-ASF",
+      "short_name": "NISAR_L2_GCOV_V1",
+      "title": "NISAR Validated Geocoded Polarimetric Covariance Product (Version 1)",
+      "version": "1",
+      "provider": "ASF",
+      "maturity": "validated",
+      "metadata_url": "https://cmr.earthdata.nasa.gov/search/concepts/C3622241360-ASF.umm_json"
+    },
+    "granule_revision": 1,
+    "service_id": "S4389714698-ASF",
+    "service_version": "4.0.0",
+    "planned_at": "2026-11-15T06:50:03.410980+00:00",
+    "analysis_ready": false,
+    "notice": "Candidate extraction only. No mangrove change or scientific readiness is established."
+  },
+  "job": {
+    "id": "52a89f3e-c229-4900-9246-f39aa928278f",
+    "status": "failed",
+    "progress": 100,
+    "created_at": "2026-11-15T06:50:04.214939+00:00",
+    "created_epoch": 1794725404.2149394,
+    "plan": {
+      "request_url": "https://harmony.earthdata.nasa.gov/C3622241360-ASF/ogc-api-coverages/1.0.0/collections/V4137651715-ASF/coverage/rangeset?granuleId=G4405780437-ASF&subset=lon%2888.75%3A88.78%29&subset=lat%2821.85%3A21.88%29&format=image%2Ftiff&forceAsync=true&maxResults=1&ignoreErrors=false",
+      "method": "GET",
+      "bbox": [
+        88.75,
+        21.85,
+        88.78,
+        21.88
+      ],
+      "variable": "/science/LSAR/GCOV/grids/frequencyA/HHHH",
+      "variable_id": "V4137651715-ASF",
+      "scene": {
+        "id": "G4405780437-ASF",
+        "name": "NISAR_L2_PR_GCOV_033_170_A_013_4005_DHDH_A_20261023T232918_20261023T232952_P05036_N_F_J_001",
+        "collection_id": "C3622241360-ASF",
+        "collection_name": "NISAR_L2_GCOV_V1",
+        "collection_version": "1",
+        "start_time": "2026-10-23T23:29:18.000000Z",
+        "end_time": "2026-10-23T23:29:52.999342Z",
+        "date": "2026-10-23",
+        "product": "GCOV",
+        "product_version": "1.0.20",
+        "frequencies": [
+          "A",
+          "B"
+        ],
+        "polarizations": {
+          "A": [
+            "HH",
+            "HV"
+          ],
+          "B": [
+            "HH",
+            "HV"
+          ]
+        },
+        "bandwidth_mhz": {
+          "A": "40",
+          "B": "5"
+        },
+        "instruments": [
+          "L-SAR"
+        ],
+        "orbit_direction": "ASCENDING",
+        "track": "170",
+        "frame": "13",
+        "look_direction": "LEFT",
+        "incidence_angle": null,
+        "orbit_numbers": [
+          6497
+        ],
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                90.45895,
+                22.02588
+              ],
+              [
+                89.88696,
+                24.10253
+              ],
+              [
+                87.40878,
+                23.4918
+              ],
+              [
+                88.01621,
+                21.42722
+              ],
+              [
+                90.45895,
+                22.02588
+              ]
+            ]
+          ]
+        },
+        "footprint_source": "polygon",
+        "aoi_coverage_percent_approx": 100.0,
+        "metadata_url": "https://cmr.earthdata.nasa.gov/search/concepts/G4405780437-ASF.umm_json",
+        "attributes": {
+          "ASCENDING_DESCENDING": [
+            "ASCENDING"
+          ],
+          "FRAME_NUMBER": [
+            "13"
+          ],
+          "FREQUENCIES": [
+            "A",
+            "B"
+          ],
+          "FREQUENCY_A_POLARIZATION": [
+            "HH",
+            "HV"
+          ],
+          "FREQUENCY_A_POLARIZATION_CONCAT": [
+            "HH+HV"
+          ],
+          "FREQUENCY_A_RANGE_BANDWIDTH": [
+            "40"
+          ],
+          "FREQUENCY_B_POLARIZATION": [
+            "HH",
+            "HV"
+          ],
+          "FREQUENCY_B_POLARIZATION_CONCAT": [
+            "HH+HV"
+          ],
+          "FREQUENCY_B_RANGE_BANDWIDTH": [
+            "5"
+          ],
+          "FULL_FRAME": [
+            "TRUE"
+          ],
+          "JOINT_OBSERVATION": [
+            "TRUE"
+          ],
+          "ORBIT_TYPE": [
+            "MOE"
+          ],
+          "PROCESSING_CENTER": [
+            "JPL"
+          ],
+          "PROCESSING_LEVEL": [
+            "L2"
+          ],
+          "PRODUCTION_PIPELINE": [
+            "PR"
+          ],
+          "PRODUCT_TYPE": [
+            "GCOV"
+          ],
+          "PRODUCT_TYPE_DESC": [
+            "Geocoded Polarimetric Covariance"
+          ],
+          "PRODUCT_VERSION": [
+            "1.0.20"
+          ],
+          "RANGE_BANDWIDTH_CONCAT": [
+            "40+5"
+          ],
+          "STACK_ID": [
+            "170_A_013"
+          ],
+          "TRACK_NUMBER": [
+            "170"
+          ]
+        },
+        "metadata_revision": "2026-11-08T15:55:14.943Z"
+      },
+      "collection": {
+        "id": "C3622241360-ASF",
+        "short_name": "NISAR_L2_GCOV_V1",
+        "title": "NISAR Validated Geocoded Polarimetric Covariance Product (Version 1)",
+        "version": "1",
+        "provider": "ASF",
+        "maturity": "validated",
+        "metadata_url": "https://cmr.earthdata.nasa.gov/search/concepts/C3622241360-ASF.umm_json"
+      },
+      "granule_revision": 1,
+      "service_id": "S4389714698-ASF",
+      "service_version": "4.0.0",
+      "planned_at": "2026-11-15T06:50:04.210942+00:00",
+      "analysis_ready": false,
+      "notice": "Candidate extraction only. No mangrove change or scientific readiness is established."
+    },
+    "remote_job_id": "c9136c2d-e1ec-4669-b738-4a455f3b8f66",
+    "cancel_requested": false,
+    "raster": null,
+    "alignment": null,
+    "submission_attempted": true,
+    "reference_job_id": null,
+    "error": {
+      "code": "extent_mismatch",
+      "message": "Downloaded COG failed technical validation; no replacement job was submitted."
+    },
+    "analysis_ready": false,
+    "updated_at": "2026-11-15T06:57:03.977709+00:00",
+    "remote_terminal": true,
+    "output_expires_at": "2026-12-15T06:50:03.650Z"
+  },
+  "pixel_statistics": {
+    "population": "all finite GDAL-unmasked pixels; no mangrove or GCOV subswath mask applied",
+    "units": "linear frequencyA/HHHH power; not dB",
+    "count": 102933,
+    "minimum": 0.002036839723587036,
+    "maximum": 3.030181884765625,
+    "mean": 0.1530429612423082,
+    "standard_deviation_population": 0.12685261433299033
+  },
+  "raster_audit": {
+    "validation_passed": false,
+    "source_granule_id": "G4405780437-ASF",
+    "requested_variable": "/science/LSAR/GCOV/grids/frequencyA/HHHH",
+    "statistics": {
+      "population": "all finite GDAL-unmasked pixels; no mangrove or GCOV subswath mask applied",
+      "units": "linear frequencyA/HHHH power; not dB",
+      "count": 102933,
+      "minimum": 0.002036839723587036,
+      "maximum": 3.030181884765625,
+      "mean": 0.1530429612423082,
+      "standard_deviation_population": 0.12685261433299033
+    },
+    "crs": "EPSG:32645",
+    "width": 313,
+    "height": 334,
+    "bands": 1,
+    "dtypes": [
+      "float32"
+    ],
+    "bounds": [
+      680810.0,
+      2417260.0,
+      683940.0,
+      2420600.0
+    ],
+    "resolution": [
+      10.0,
+      10.0
+    ],
+    "nodata": null,
+    "nodata_is_nan": true,
+    "bytes": 380888,
+    "finite_unmasked_pixels": 102933,
+    "positive_power_pixels": 102933,
+    "masked_pixels": 1609,
+    "unmasked_nonfinite_pixels": 0,
+    "readable_pixels": 104542,
+    "failure_category": "extent_mismatch",
+    "radar_variable_identity_verified": true,
+    "bounds_wgs84": [
+      88.74964975241748,
+      21.84974895616848,
+      88.78030086029081,
+      21.880234889089312
+    ],
+    "requested_bbox_wgs84": [
+      88.75,
+      21.85,
+      88.78,
+      21.88
+    ],
+    "existing_extent_tolerance_degrees": 0.00029378058664528893,
+    "absolute_edge_differences_degrees": [
+      0.0003502475825172269,
+      0.00025104383152196874,
+      0.00030086029080678145,
+      0.00023488908931312835
+    ],
+    "existing_extent_check_passed": false,
+    "identity_verification_basis": "Backend inspector passed source/variable identity before raising its exact extent-mismatch error; no file was reread or validation criterion relaxed."
+  },
+  "second_scene_submitted": false,
+  "analysis_ready": false,
+  "auth_mode": "earthdata_password",
+  "token_used": false,
+  "output_download_attempts": 3,
+  "outcome": "INVALID",
+  "updated_at_utc": "2026-11-15T06:51:32.580415+00:00",
+  "authentication_verified_at_utc": "2026-11-15T06:49:49.292167+00:00",
+  "limits": {
+    "file_bytes": 67108864,
+    "cache_bytes": 268435456,
+    "retention_seconds": 86400,
+    "job_timeout_seconds": 1200,
+    "max_jobs": 50,
+    "concurrent_jobs": 1
+  },
+  "process_local_enablement_at_utc": "2026-11-15T06:50:03.417000+00:00",
+  "local_job_id": "52a89f3e-c229-4900-9246-f39aa928278f",
+  "submission_attempted_at_utc": "2026-11-15T06:50:04.242144+00:00",
+  "submission_http_evidence": {
+    "http_status": 303,
+    "stage": "reading_response_body",
+    "elapsed_seconds": 0.906,
+    "requests_sent": 1,
+    "automatic_retries": 0
+  },
+  "job_id_received_at_utc": "2026-11-15T06:50:05.156995+00:00",
+  "process_local_enablement_restored_false": true,
+  "finished_at_utc": "2026-11-15T06:57:03.999190+00:00",
+  "output_retrieval_attempts": [
+    {
+      "started_at_utc": "2026-11-15T06:54:15.517787+00:00",
+      "processing_enabled": false,
+      "processing_submissions": 0,
+      "outcome": "BLOCKED",
+      "category": "unsafe_asset_url",
+      "backend_http_status": 502,
+      "last_harmony_http_evidence": {
+        "http_status": 307,
+        "stage": "reading_response_body",
+        "elapsed_seconds": 1.063,
+        "requests_sent": 1,
+        "automatic_retries": 0,
+        "redirect_host": "dqzb5lcolc8fj.cloudfront.net"
+      },
+      "finished_at_utc": "2026-11-15T06:54:20.564434+00:00"
+    },
+    {
+      "started_at_utc": "2026-11-15T06:56:53.788802+00:00",
+      "processing_enabled": false,
+      "processing_submissions": 0,
+      "download_completed_at_utc": "2026-11-15T06:57:03.884607+00:00",
+      "outcome": "INVALID",
+      "last_harmony_http_evidence": {
+        "http_status": 307,
+        "stage": "reading_response_body",
+        "elapsed_seconds": 1.078,
+        "requests_sent": 1,
+        "automatic_retries": 0,
+        "redirect_host": "dqzb5lcolc8fj.cloudfront.net"
+      },
+      "finished_at_utc": "2026-11-15T06:57:03.999190+00:00"
+    }
+  ],
+  "postprocessing_note": "WGS84 extent diagnostics derived locally from the recorded real CRS/bounds/dimensions. Identity stage reporting corrected using the executed inspector control flow. Outcome remains INVALID. No NASA request or new processing occurred.",
+  "output_downloaded_at_utc": "2026-11-15T06:57:03.884607+00:00",
+  "authorization_consumed": true,
+  "initial_runner_error_code": "unsafe_asset_url",
+  "actual_cog_downloads_completed": 1,
+  "client_versions": {
+    "harmony-py": "1.8.0",
+    "requests": "2.34.2",
+    "rasterio": "1.5.2",
+    "numpy": "2.5.4",
+    "python": "3.12.13"
+  },
+  "post_run_checks": {
+    "checked_at_utc": "2026-11-15T07:05:31.612334+00:00",
+    "processing_enabled": false,
+    "auth_mode": "earthdata_password",
+    "local_job_count": 1,
+    "cached_tif_count": 0,
+    "partial_count": 0,
+    "second_scene_unlocked": false,
+    "backend_tests_passed": 131,
+    "backend_tests_skipped": 1,
+    "frontend_tests_passed": 9
+  }
+}

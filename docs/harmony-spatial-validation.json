@@ -1,0 +1,211 @@
+{
+  "checked_at_utc": "2026-11-15T07:47:37.069920+00:00",
+  "job_id": "c9136c2d-e1ec-4669-b738-4a455f3b8f66",
+  "processing_enabled": false,
+  "new_processing_jobs": 0,
+  "second_scene_processed": false,
+  "historical_evidence_modified": false,
+  "verdict": "VALID",
+  "raster_validation": {
+    "validation_passed": true,
+    "source_granule_id": "G4405780437-ASF",
+    "requested_variable": "/science/LSAR/GCOV/grids/frequencyA/HHHH",
+    "statistics": {
+      "population": "all finite GDAL-unmasked pixels; no mangrove or GCOV subswath mask applied",
+      "units": "linear frequencyA/HHHH power; not dB",
+      "count": 102933,
+      "minimum": 0.002036839723587036,
+      "maximum": 3.030181884765625,
+      "mean": 0.1530429612423082,
+      "standard_deviation_population": 0.12685261433299033
+    },
+    "crs": "EPSG:32645",
+    "width": 313,
+    "height": 334,
+    "bands": 1,
+    "dtypes": [
+      "float32"
+    ],
+    "bounds": [
+      680810.0,
+      2417260.0,
+      683940.0,
+      2420600.0
+    ],
+    "resolution": [
+      10.0,
+      10.0
+    ],
+    "nodata": null,
+    "nodata_is_nan": true,
+    "bytes": 380888,
+    "bounds_wgs84": [
+      88.74964975241748,
+      21.84974895616848,
+      88.78030086029081,
+      21.880234889089312
+    ],
+    "requested_bbox_wgs84": [
+      88.75,
+      21.85,
+      88.78,
+      21.88
+    ],
+    "existing_extent_tolerance_degrees": 0.00029378058664528893,
+    "absolute_edge_differences_degrees": [
+      0.0003502475825172269,
+      0.00025104383152196874,
+      0.00030086029080678145,
+      0.00023488908931312835
+    ],
+    "existing_extent_check_passed": false,
+    "finite_unmasked_pixels": 102933,
+    "positive_power_pixels": 102933,
+    "masked_pixels": 1609,
+    "unmasked_nonfinite_pixels": 0,
+    "readable_pixels": 104542,
+    "verified_metadata": {
+      "verified": true,
+      "driver": "GTiff",
+      "layout": "COG",
+      "crs": "EPSG:32645",
+      "tiled": true,
+      "overviews": [],
+      "bounds": [
+        680810.0,
+        2417260.0,
+        683940.0,
+        2420600.0
+      ],
+      "bounds_wgs84": [
+        88.74964975241748,
+        21.84974895616848,
+        88.78030086029081,
+        21.880234889089312
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "transform": [
+        10.0,
+        0.0,
+        680810.0,
+        0.0,
+        -10.0,
+        2420600.0
+      ],
+      "width": 313,
+      "height": 334,
+      "bands": 1,
+      "dtypes": [
+        "float32"
+      ],
+      "nodata": null,
+      "nodata_is_nan": true,
+      "mask_flags": [
+        [
+          "nodata"
+        ]
+      ],
+      "readable_pixels": 104542,
+      "finite_unmasked_pixels": 102933,
+      "masked_pixels": 1609,
+      "positive_power_pixels": 102933,
+      "variable": "/science/LSAR/GCOV/grids/frequencyA/HHHH",
+      "spatial_validation": {
+        "policy": "source-pixel-crop-v1",
+        "verified": true,
+        "axis_order": "always_xy=True: longitude,latitude",
+        "window_snap_limit_pixels": 1.0,
+        "boundary_center_loss_limit_pixels": 0.5,
+        "numerical_geometry_limit_pixels": 1e-06,
+        "requested_bbox_wgs84": [
+          88.75,
+          21.85,
+          88.78,
+          21.88
+        ],
+        "aoi_bounds_pixels": [
+          -0.15005290305998642,
+          -0.9574768818565644,
+          313.7237249419268,
+          334.76799017729354
+        ],
+        "edge_padding_pixels_left_top_right_bottom": [
+          -0.15005290305998642,
+          -0.9574768818565644,
+          -0.7237249419267755,
+          -0.7679901772935409
+        ],
+        "densification_segments_per_edge": 256,
+        "densification_error_pixels": 4.6202429107942517e-07,
+        "aoi_centers_in_raster": 102933,
+        "aoi_centers_missing_at_boundary": 82,
+        "expected_aoi_centers_on_full_source_grid": 103015,
+        "max_missing_center_depth_pixels": 0.441473996412775,
+        "raster_aoi_intersection_fraction": 0.999134198122252,
+        "positive_valid_pixels": 102933,
+        "positive_centers_inside_aoi": 102933,
+        "positive_centers_outside_aoi": 0,
+        "valid_cells_disjoint_from_aoi": 0,
+        "valid_data_cell_area_pixels": 102933.0,
+        "valid_data_intersection_aoi_area_pixels": 102790.57228704912,
+        "valid_data_outside_aoi_area_pixels": 142.4277129508846,
+        "valid_data_cell_aoi_area_fraction": 0.9979095027778281,
+        "positive_center_coverage_of_available_aoi_centers": 1.0,
+        "positive_center_coverage_of_full_aoi_grid": 0.9992039994175606,
+        "valid_data_footprint_definition": "union of finite positive GDAL-unmasked source pixel cells; not its bounding envelope"
+      },
+      "identity_verified_from_output": true,
+      "source_granule_id": "G4405780437-ASF",
+      "bytes": 380888,
+      "sha256": "f9f232f2743c2839835d59726456a7d2eaa3bf7c04188d5a2d5d87cfd650df5d",
+      "warnings": [
+        "COG validity masks do not replace the separate GCOV focusing/subswath mask.",
+        "No tide, incidence, mangrove mask, or disturbance validation."
+      ],
+      "analysis_ready": false
+    },
+    "radar_variable_identity_verified": true
+  },
+  "recovery": {
+    "job_id": "c9136c2d-e1ec-4669-b738-4a455f3b8f66",
+    "started_at_utc": "2026-11-15T07:31:15.168392+00:00",
+    "processing_enabled": false,
+    "new_jobs_submitted": 0,
+    "prior_local_cog_absent": true,
+    "result": "recovered_same_job_output",
+    "bytes": 380888,
+    "sha256": "f9f232f2743c2839835d59726456a7d2eaa3bf7c04188d5a2d5d87cfd650df5d",
+    "output_name_contains_source": true,
+    "output_name_contains_variable": true,
+    "finished_at_utc": "2026-11-15T07:31:24.129301+00:00"
+  },
+  "output_identity": {
+    "observed_output_basename": "NISAR_L2_PR_GCOV_033_170_A_013_4005_DHDH_A_20261023T232918_20261023T232952_P05036_N_F_J_001_science_LSAR_GCOV_grids_frequencyA_HHHH_subsetted.tif",
+    "job_id": "c9136c2d-e1ec-4669-b738-4a455f3b8f66",
+    "observed_at_utc": "2026-11-15T07:44:33.347022+00:00",
+    "source": "authenticated NASA job status; only filename retained, no URI/query"
+  },
+  "sha256": "f9f232f2743c2839835d59726456a7d2eaa3bf7c04188d5a2d5d87cfd650df5d",
+  "prior_extent_failure": "extent_mismatch",
+  "finished_at_utc": "2026-11-15T07:47:37.215894+00:00",
+  "post_run_checks": {
+    "checked_at_utc": "2026-11-15T07:52:55.826187+00:00",
+    "processing_enabled": false,
+    "local_job_count": 1,
+    "second_scene_unlocked": false,
+    "new_jobs_submitted": 0,
+    "backend_passed": 144,
+    "backend_skipped": 1,
+    "frontend_passed": 9,
+    "historical_provenance_not_promoted": true
+  },
+  "library_versions": {
+    "pyproj": "3.8.0",
+    "rasterio": "1.5.2",
+    "shapely": "2.2.0",
+    "numpy": "2.5.4"
+  }
+}

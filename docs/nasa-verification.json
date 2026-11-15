@@ -1,0 +1,284 @@
+{
+  "verified_at": "2026-11-14T16:18:05.916823+00:00",
+  "aoi": [
+    88.4,
+    21.55,
+    89.1,
+    22.25
+  ],
+  "endpoints": [
+    {
+      "url": "https://cmr.earthdata.nasa.gov/search/collections.umm_json?keyword=NISAR&page_size=200",
+      "result": "HTTP 200; GCOV collections dynamically filtered"
+    },
+    {
+      "url": "https://cmr.earthdata.nasa.gov/search/granules.umm_json?collection_concept_id=C3622241360-ASF&bounding_box=88.4,21.55,89.1,22.25&page_size=200&page_num=1&sort_key=-start_date",
+      "result": "HTTP 200"
+    },
+    {
+      "url": "https://cmr.earthdata.nasa.gov/search/concepts/G4411480194-ASF.umm_json",
+      "result": "HTTP 200; normalized acquisition timestamp matches search"
+    },
+    {
+      "url": "https://cmr.earthdata.nasa.gov/search/granules.umm_json?collection_concept_id=C2854338529-ASF&bounding_box=88.4,21.55,89.1,22.25&page_size=200&page_num=1&sort_key=-start_date",
+      "result": "HTTP 200"
+    },
+    {
+      "url": "https://cmr.earthdata.nasa.gov/search/granules.umm_json?collection_concept_id=C3622214170-ASF&bounding_box=88.4,21.55,89.1,22.25&page_size=200&page_num=1&sort_key=-start_date",
+      "result": "HTTP 200"
+    }
+  ],
+  "collections": [
+    {
+      "id": "C3622241360-ASF",
+      "short_name": "NISAR_L2_GCOV_V1",
+      "maturity": "validated",
+      "total_hits": 10,
+      "dates_in_loaded_page": [
+        "2026-10-23",
+        "2026-10-25",
+        "2026-10-30",
+        "2026-11-04",
+        "2026-11-06",
+        "2026-11-11"
+      ],
+      "loaded": 10,
+      "has_more": false
+    },
+    {
+      "id": "C2854338529-ASF",
+      "short_name": "NISAR_L2_GCOV_PROVISIONAL_V1",
+      "maturity": "provisional",
+      "total_hits": 66,
+      "dates_in_loaded_page": [
+        "2026-03-04",
+        "2026-03-16",
+        "2026-04-09",
+        "2026-04-21",
+        "2026-05-03",
+        "2026-05-15",
+        "2026-05-27",
+        "2026-06-20",
+        "2026-06-25",
+        "2026-06-27",
+        "2026-07-02",
+        "2026-07-07",
+        "2026-07-09",
+        "2026-07-14",
+        "2026-07-19",
+        "2026-07-21",
+        "2026-07-26",
+        "2026-08-12",
+        "2026-08-14",
+        "2026-08-19",
+        "2026-08-24",
+        "2026-08-26",
+        "2026-08-31",
+        "2026-09-05",
+        "2026-09-07",
+        "2026-09-12",
+        "2026-09-17",
+        "2026-09-19",
+        "2026-09-24",
+        "2026-09-29",
+        "2026-10-01",
+        "2026-10-06",
+        "2026-10-11",
+        "2026-10-13",
+        "2026-10-18"
+      ],
+      "loaded": 66,
+      "has_more": false
+    },
+    {
+      "id": "C3622214170-ASF",
+      "short_name": "NISAR_L2_GCOV_BETA_V1",
+      "maturity": "beta",
+      "total_hits": 5,
+      "dates_in_loaded_page": [
+        "2025-11-28",
+        "2025-12-10",
+        "2025-12-22",
+        "2026-01-03",
+        "2026-01-15"
+      ],
+      "loaded": 5,
+      "has_more": false
+    }
+  ],
+  "metadata": {
+    "id": "G4411480194-ASF",
+    "observation_start": "2026-11-11T23:37:15.000000Z",
+    "product": "GCOV",
+    "frequencies": [
+      "A",
+      "B"
+    ],
+    "polarizations": {
+      "A": [
+        "HH",
+        "HV"
+      ],
+      "B": [
+        "HH",
+        "HV"
+      ]
+    },
+    "look_direction": "LEFT",
+    "incidence_angle": null,
+    "coverage_percent_approx": 4.36
+  },
+  "screening": {
+    "baseline": "G4405039333-ASF",
+    "comparison": "G4411480194-ASF",
+    "status": "incompatible",
+    "checks": [
+      {
+        "key": "distinct_dates",
+        "label": "Different observation dates",
+        "status": "compatible",
+        "left": "2026-11-06",
+        "right": "2026-11-11"
+      },
+      {
+        "key": "product",
+        "label": "Product type",
+        "status": "compatible",
+        "left": "GCOV",
+        "right": "GCOV"
+      },
+      {
+        "key": "collection_name",
+        "label": "Collection / maturity",
+        "status": "compatible",
+        "left": "NISAR_L2_GCOV_V1",
+        "right": "NISAR_L2_GCOV_V1"
+      },
+      {
+        "key": "collection_version",
+        "label": "Collection version",
+        "status": "compatible",
+        "left": "1",
+        "right": "1"
+      },
+      {
+        "key": "product_version",
+        "label": "Product version",
+        "status": "compatible",
+        "left": "1.0.20",
+        "right": "1.0.20"
+      },
+      {
+        "key": "instruments",
+        "label": "Radar instrument / band",
+        "status": "compatible",
+        "left": [
+          "L-SAR"
+        ],
+        "right": [
+          "L-SAR"
+        ]
+      },
+      {
+        "key": "frequencies",
+        "label": "Frequency sub-bands",
+        "status": "compatible",
+        "left": [
+          "A",
+          "B"
+        ],
+        "right": [
+          "A",
+          "B"
+        ]
+      },
+      {
+        "key": "orbit_direction",
+        "label": "Orbit direction",
+        "status": "incompatible",
+        "left": "DESCENDING",
+        "right": "ASCENDING"
+      },
+      {
+        "key": "track",
+        "label": "Relative track",
+        "status": "incompatible",
+        "left": "19",
+        "right": "98"
+      },
+      {
+        "key": "frame",
+        "label": "Frame",
+        "status": "incompatible",
+        "left": "78",
+        "right": "12"
+      },
+      {
+        "key": "look_direction",
+        "label": "Look direction",
+        "status": "compatible",
+        "left": "LEFT",
+        "right": "LEFT"
+      },
+      {
+        "key": "polarizations",
+        "label": "Polarization per frequency",
+        "status": "incompatible",
+        "left": {
+          "A": [
+            "VH",
+            "VV"
+          ],
+          "B": [
+            "VH",
+            "VV"
+          ]
+        },
+        "right": {
+          "A": [
+            "HH",
+            "HV"
+          ],
+          "B": [
+            "HH",
+            "HV"
+          ]
+        }
+      },
+      {
+        "key": "bandwidth_mhz",
+        "label": "Range bandwidth per frequency",
+        "status": "incompatible",
+        "left": {
+          "A": "20",
+          "B": "5"
+        },
+        "right": {
+          "A": "40",
+          "B": "5"
+        }
+      },
+      {
+        "key": "overlap",
+        "label": "Shared coverage within pilot AOI",
+        "status": "compatible",
+        "left": 2.21,
+        "right": "percent of AOI (approx.)"
+      },
+      {
+        "key": "incidence_angle",
+        "label": "Incidence angle",
+        "status": "unknown",
+        "left": null,
+        "right": null
+      }
+    ],
+    "analysis_ready": false
+  },
+  "not_verified": [
+    "Harmony API or conversion",
+    "Raster / COG processing",
+    "Scientific forest-change analysis",
+    "Earthdata authenticated data access"
+  ]
+}

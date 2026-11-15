@@ -1,0 +1,36 @@
+{
+  "recorded_at_utc": "2026-11-15T11:08:59.603511+00:00",
+  "public_deployment": "NOT DEPLOYED; no public frontend/backend URLs created or tested",
+  "environment": "Windows production-mode Uvicorn + Vite production build, separate origins, clean source copy without .env or cached NISAR",
+  "backend_tests": {
+    "passed": 186,
+    "skipped": 1
+  },
+  "frontend_tests": {
+    "passed": 26
+  },
+  "build": "passed",
+  "linux_dependencies": "37 runtime packages resolved for Python 3.12 Linux x86_64 against public PyPI; native Linux execution not performed",
+  "health": {
+    "status": "ok",
+    "phase": "2B",
+    "processing_implemented": true,
+    "change_analysis_implemented": false,
+    "deployment_mode": "production",
+    "harmony_processing_enabled": false,
+    "image_comparison_implemented": true,
+    "generated_files_ephemeral": true
+  },
+  "available_images": [
+    "sim-rgb-before",
+    "sim-rgb-after",
+    "sim-sar-before",
+    "sim-sar-after"
+  ],
+  "missing_optional_images": [
+    "nisar-20261023-hhhh"
+  ],
+  "cors_allowed_origin": "http://127.0.0.1:4174",
+  "untrusted_cors_preflight_http": 400,
+  "harmony_jobs_post_http": 403
+}

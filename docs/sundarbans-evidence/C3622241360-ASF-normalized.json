@@ -1,0 +1,1945 @@
+[
+  {
+    "id": "G4411494688-ASF",
+    "name": "NISAR_L2_PR_GCOV_035_098_A_013_4005_DHDH_A_20261111T233738_20261111T233812_P05036_N_F_J_001",
+    "collection_id": "C3622241360-ASF",
+    "collection_name": "NISAR_L2_GCOV_V1",
+    "collection_version": "1",
+    "start_time": "2026-11-11T23:37:38.000000Z",
+    "end_time": "2026-11-11T23:38:12.999342Z",
+    "date": "2026-11-11",
+    "product": "GCOV",
+    "product_version": "1.0.20",
+    "frequencies": [
+      "A",
+      "B"
+    ],
+    "polarizations": {
+      "A": [
+        "HH",
+        "HV"
+      ],
+      "B": [
+        "HH",
+        "HV"
+      ]
+    },
+    "bandwidth_mhz": {
+      "A": "40",
+      "B": "5"
+    },
+    "instruments": [
+      "L-SAR"
+    ],
+    "orbit_direction": "ASCENDING",
+    "track": "98",
+    "frame": "13",
+    "look_direction": "LEFT",
+    "incidence_angle": null,
+    "orbit_numbers": [
+      6771
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            88.38267,
+            22.01432
+          ],
+          [
+            87.81045,
+            24.09092
+          ],
+          [
+            85.32501,
+            23.47837
+          ],
+          [
+            85.93492,
+            21.41444
+          ],
+          [
+            88.38267,
+            22.01432
+          ]
+        ]
+      ]
+    },
+    "footprint_source": "polygon",
+    "aoi_coverage_percent_approx": 0.0,
+    "metadata_url": "https://cmr.earthdata.nasa.gov/search/concepts/G4411494688-ASF.umm_json",
+    "attributes": {
+      "ASCENDING_DESCENDING": [
+        "ASCENDING"
+      ],
+      "FRAME_NUMBER": [
+        "13"
+      ],
+      "FREQUENCIES": [
+        "A",
+        "B"
+      ],
+      "FREQUENCY_A_POLARIZATION": [
+        "HH",
+        "HV"
+      ],
+      "FREQUENCY_A_POLARIZATION_CONCAT": [
+        "HH+HV"
+      ],
+      "FREQUENCY_A_RANGE_BANDWIDTH": [
+        "40"
+      ],
+      "FREQUENCY_B_POLARIZATION": [
+        "HH",
+        "HV"
+      ],
+      "FREQUENCY_B_POLARIZATION_CONCAT": [
+        "HH+HV"
+      ],
+      "FREQUENCY_B_RANGE_BANDWIDTH": [
+        "5"
+      ],
+      "FULL_FRAME": [
+        "TRUE"
+      ],
+      "JOINT_OBSERVATION": [
+        "TRUE"
+      ],
+      "ORBIT_TYPE": [
+        "MOE"
+      ],
+      "PROCESSING_CENTER": [
+        "JPL"
+      ],
+      "PROCESSING_LEVEL": [
+        "L2"
+      ],
+      "PRODUCTION_PIPELINE": [
+        "PR"
+      ],
+      "PRODUCT_TYPE": [
+        "GCOV"
+      ],
+      "PRODUCT_TYPE_DESC": [
+        "Geocoded Polarimetric Covariance"
+      ],
+      "PRODUCT_VERSION": [
+        "1.0.20"
+      ],
+      "RANGE_BANDWIDTH_CONCAT": [
+        "40+5"
+      ],
+      "STACK_ID": [
+        "098_A_013"
+      ],
+      "TRACK_NUMBER": [
+        "98"
+      ]
+    },
+    "metadata_revision": "2026-11-14T09:54:09.626Z"
+  },
+  {
+    "id": "G4411480194-ASF",
+    "name": "NISAR_L2_PR_GCOV_035_098_A_012_4005_DHDH_A_20261111T233715_20261111T233739_P05036_N_P_J_001",
+    "collection_id": "C3622241360-ASF",
+    "collection_name": "NISAR_L2_GCOV_V1",
+    "collection_version": "1",
+    "start_time": "2026-11-11T23:37:15.000000Z",
+    "end_time": "2026-11-11T23:37:39.999342Z",
+    "date": "2026-11-11",
+    "product": "GCOV",
+    "product_version": "1.0.20",
+    "frequencies": [
+      "A",
+      "B"
+    ],
+    "polarizations": {
+      "A": [
+        "HH",
+        "HV"
+      ],
+      "B": [
+        "HH",
+        "HV"
+      ]
+    },
+    "bandwidth_mhz": {
+      "A": "40",
+      "B": "5"
+    },
+    "instruments": [
+      "L-SAR"
+    ],
+    "orbit_direction": "ASCENDING",
+    "track": "98",
+    "frame": "12",
+    "look_direction": "LEFT",
+    "incidence_angle": null,
+    "orbit_numbers": [
+      6771
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            88.74897,
+            20.64844
+          ],
+          [
+            88.35049,
+            22.13301
+          ],
+          [
+            85.90077,
+            21.53245
+          ],
+          [
+            86.32428,
+            20.05662
+          ],
+          [
+            88.74897,
+            20.64844
+          ]
+        ]
+      ]
+    },
+    "footprint_source": "polygon",
+    "aoi_coverage_percent_approx": 4.36,
+    "metadata_url": "https://cmr.earthdata.nasa.gov/search/concepts/G4411480194-ASF.umm_json",
+    "attributes": {
+      "ASCENDING_DESCENDING": [
+        "ASCENDING"
+      ],
+      "FRAME_NUMBER": [
+        "12"
+      ],
+      "FREQUENCIES": [
+        "A",
+        "B"
+      ],
+      "FREQUENCY_A_POLARIZATION": [
+        "HH",
+        "HV"
+      ],
+      "FREQUENCY_A_POLARIZATION_CONCAT": [
+        "HH+HV"
+      ],
+      "FREQUENCY_A_RANGE_BANDWIDTH": [
+        "40"
+      ],
+      "FREQUENCY_B_POLARIZATION": [
+        "HH",
+        "HV"
+      ],
+      "FREQUENCY_B_POLARIZATION_CONCAT": [
+        "HH+HV"
+      ],
+      "FREQUENCY_B_RANGE_BANDWIDTH": [
+        "5"
+      ],
+      "FULL_FRAME": [
+        "FALSE"
+      ],
+      "JOINT_OBSERVATION": [
+        "TRUE"
+      ],
+      "ORBIT_TYPE": [
+        "MOE"
+      ],
+      "PROCESSING_CENTER": [
+        "JPL"
+      ],
+      "PROCESSING_LEVEL": [
+        "L2"
+      ],
+      "PRODUCTION_PIPELINE": [
+        "PR"
+      ],
+      "PRODUCT_TYPE": [
+        "GCOV"
+      ],
+      "PRODUCT_TYPE_DESC": [
+        "Geocoded Polarimetric Covariance"
+      ],
+      "PRODUCT_VERSION": [
+        "1.0.20"
+      ],
+      "RANGE_BANDWIDTH_CONCAT": [
+        "40+5"
+      ],
+      "STACK_ID": [
+        "098_A_012"
+      ],
+      "TRACK_NUMBER": [
+        "98"
+      ]
+    },
+    "metadata_revision": "2026-11-14T09:27:39.088Z"
+  },
+  {
+    "id": "G4411176091-ASF",
+    "name": "NISAR_L2_PR_GCOV_035_091_D_077_2000_DVNA_M_20261111T123455_20261111T123529_P05036_N_F_J_001",
+    "collection_id": "C3622241360-ASF",
+    "collection_name": "NISAR_L2_GCOV_V1",
+    "collection_version": "1",
+    "start_time": "2026-11-11T12:34:55.000000Z",
+    "end_time": "2026-11-11T12:35:29.999342Z",
+    "date": "2026-11-11",
+    "product": "GCOV",
+    "product_version": "1.0.20",
+    "frequencies": [
+      "A"
+    ],
+    "polarizations": {
+      "A": [
+        "VH",
+        "VV"
+      ]
+    },
+    "bandwidth_mhz": {
+      "A": "20"
+    },
+    "instruments": [
+      "L-SAR"
+    ],
+    "orbit_direction": "DESCENDING",
+    "track": "91",
+    "frame": "77",
+    "look_direction": "LEFT",
+    "incidence_angle": null,
+    "orbit_numbers": [
+      6764
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            89.75643,
+            24.18925
+          ],
+          [
+            89.18302,
+            22.11282
+          ],
+          [
+            91.58916,
+            21.52267
+          ],
+          [
+            92.19842,
+            23.58695
+          ],
+          [
+            89.75643,
+            24.18925
+          ]
+        ]
+      ]
+    },
+    "footprint_source": "polygon",
+    "aoi_coverage_percent_approx": 0.0,
+    "metadata_url": "https://cmr.earthdata.nasa.gov/search/concepts/G4411176091-ASF.umm_json",
+    "attributes": {
+      "ASCENDING_DESCENDING": [
+        "DESCENDING"
+      ],
+      "FRAME_NUMBER": [
+        "77"
+      ],
+      "FREQUENCIES": [
+        "A"
+      ],
+      "FREQUENCY_A_POLARIZATION": [
+        "VH",
+        "VV"
+      ],
+      "FREQUENCY_A_POLARIZATION_CONCAT": [
+        "VV+VH"
+      ],
+      "FREQUENCY_A_RANGE_BANDWIDTH": [
+        "20"
+      ],
+      "FULL_FRAME": [
+        "TRUE"
+      ],
+      "JOINT_OBSERVATION": [
+        "TRUE"
+      ],
+      "ORBIT_TYPE": [
+        "MOE"
+      ],
+      "PROCESSING_CENTER": [
+        "JPL"
+      ],
+      "PROCESSING_LEVEL": [
+        "L2"
+      ],
+      "PRODUCTION_PIPELINE": [
+        "PR"
+      ],
+      "PRODUCT_TYPE": [
+        "GCOV"
+      ],
+      "PRODUCT_TYPE_DESC": [
+        "Geocoded Polarimetric Covariance"
+      ],
+      "PRODUCT_VERSION": [
+        "1.0.20"
+      ],
+      "RANGE_BANDWIDTH_CONCAT": [
+        "20"
+      ],
+      "STACK_ID": [
+        "091_D_077"
+      ],
+      "TRACK_NUMBER": [
+        "91"
+      ]
+    },
+    "metadata_revision": "2026-11-14T00:32:08.367Z"
+  },
+  {
+    "id": "G4405039333-ASF",
+    "name": "NISAR_L2_PR_GCOV_035_019_D_078_2005_DVDV_A_20261106T124351_20261106T124422_P05036_N_F_J_001",
+    "collection_id": "C3622241360-ASF",
+    "collection_name": "NISAR_L2_GCOV_V1",
+    "collection_version": "1",
+    "start_time": "2026-11-06T12:43:51.000000Z",
+    "end_time": "2026-11-06T12:44:22.999342Z",
+    "date": "2026-11-06",
+    "product": "GCOV",
+    "product_version": "1.0.20",
+    "frequencies": [
+      "A",
+      "B"
+    ],
+    "polarizations": {
+      "A": [
+        "VH",
+        "VV"
+      ],
+      "B": [
+        "VH",
+        "VV"
+      ]
+    },
+    "bandwidth_mhz": {
+      "A": "20",
+      "B": "5"
+    },
+    "instruments": [
+      "L-SAR"
+    ],
+    "orbit_direction": "DESCENDING",
+    "track": "19",
+    "frame": "78",
+    "look_direction": "LEFT",
+    "incidence_angle": null,
+    "orbit_numbers": [
+      6692
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            87.14411,
+            21.98617
+          ],
+          [
+            86.63431,
+            20.08616
+          ],
+          [
+            88.93703,
+            19.52427
+          ],
+          [
+            89.47313,
+            21.41455
+          ],
+          [
+            87.14411,
+            21.98617
+          ]
+        ]
+      ]
+    },
+    "footprint_source": "polygon",
+    "aoi_coverage_percent_approx": 6.82,
+    "metadata_url": "https://cmr.earthdata.nasa.gov/search/concepts/G4405039333-ASF.umm_json",
+    "attributes": {
+      "ASCENDING_DESCENDING": [
+        "DESCENDING"
+      ],
+      "FRAME_NUMBER": [
+        "78"
+      ],
+      "FREQUENCIES": [
+        "A",
+        "B"
+      ],
+      "FREQUENCY_A_POLARIZATION": [
+        "VH",
+        "VV"
+      ],
+      "FREQUENCY_A_POLARIZATION_CONCAT": [
+        "VV+VH"
+      ],
+      "FREQUENCY_A_RANGE_BANDWIDTH": [
+        "20"
+      ],
+      "FREQUENCY_B_POLARIZATION": [
+        "VH",
+        "VV"
+      ],
+      "FREQUENCY_B_POLARIZATION_CONCAT": [
+        "VV+VH"
+      ],
+      "FREQUENCY_B_RANGE_BANDWIDTH": [
+        "5"
+      ],
+      "FULL_FRAME": [
+        "TRUE"
+      ],
+      "JOINT_OBSERVATION": [
+        "TRUE"
+      ],
+      "ORBIT_TYPE": [
+        "MOE"
+      ],
+      "PROCESSING_CENTER": [
+        "JPL"
+      ],
+      "PROCESSING_LEVEL": [
+        "L2"
+      ],
+      "PRODUCTION_PIPELINE": [
+        "PR"
+      ],
+      "PRODUCT_TYPE": [
+        "GCOV"
+      ],
+      "PRODUCT_TYPE_DESC": [
+        "Geocoded Polarimetric Covariance"
+      ],
+      "PRODUCT_VERSION": [
+        "1.0.20"
+      ],
+      "RANGE_BANDWIDTH_CONCAT": [
+        "20+5"
+      ],
+      "STACK_ID": [
+        "019_D_078"
+      ],
+      "TRACK_NUMBER": [
+        "19"
+      ]
+    },
+    "metadata_revision": "2026-11-07T23:12:47.983Z"
+  },
+  {
+    "id": "G4409021162-ASF",
+    "name": "NISAR_L2_PR_GCOV_035_019_D_077_4005_DHDH_A_20261106T124314_20261106T124348_P05036_N_F_J_001",
+    "collection_id": "C3622241360-ASF",
+    "collection_name": "NISAR_L2_GCOV_V1",
+    "collection_version": "1",
+    "start_time": "2026-11-06T12:43:14.000000Z",
+    "end_time": "2026-11-06T12:43:48.999342Z",
+    "date": "2026-11-06",
+    "product": "GCOV",
+    "product_version": "1.0.20",
+    "frequencies": [
+      "A",
+      "B"
+    ],
+    "polarizations": {
+      "A": [
+        "HH",
+        "HV"
+      ],
+      "B": [
+        "HH",
+        "HV"
+      ]
+    },
+    "bandwidth_mhz": {
+      "A": "40",
+      "B": "5"
+    },
+    "instruments": [
+      "L-SAR"
+    ],
+    "orbit_direction": "DESCENDING",
+    "track": "19",
+    "frame": "77",
+    "look_direction": "LEFT",
+    "incidence_angle": null,
+    "orbit_numbers": [
+      6692
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            87.72845,
+            24.1864
+          ],
+          [
+            87.15364,
+            22.11032
+          ],
+          [
+            89.5128,
+            21.53124
+          ],
+          [
+            90.12085,
+            23.59585
+          ],
+          [
+            87.72845,
+            24.1864
+          ]
+        ]
+      ]
+    },
+    "footprint_source": "polygon",
+    "aoi_coverage_percent_approx": 75.89,
+    "metadata_url": "https://cmr.earthdata.nasa.gov/search/concepts/G4409021162-ASF.umm_json",
+    "attributes": {
+      "ASCENDING_DESCENDING": [
+        "DESCENDING"
+      ],
+      "FRAME_NUMBER": [
+        "77"
+      ],
+      "FREQUENCIES": [
+        "A",
+        "B"
+      ],
+      "FREQUENCY_A_POLARIZATION": [
+        "HH",
+        "HV"
+      ],
+      "FREQUENCY_A_POLARIZATION_CONCAT": [
+        "HH+HV"
+      ],
+      "FREQUENCY_A_RANGE_BANDWIDTH": [
+        "40"
+      ],
+      "FREQUENCY_B_POLARIZATION": [
+        "HH",
+        "HV"
+      ],
+      "FREQUENCY_B_POLARIZATION_CONCAT": [
+        "HH+HV"
+      ],
+      "FREQUENCY_B_RANGE_BANDWIDTH": [
+        "5"
+      ],
+      "FULL_FRAME": [
+        "TRUE"
+      ],
+      "JOINT_OBSERVATION": [
+        "TRUE"
+      ],
+      "ORBIT_TYPE": [
+        "MOE"
+      ],
+      "PROCESSING_CENTER": [
+        "JPL"
+      ],
+      "PROCESSING_LEVEL": [
+        "L2"
+      ],
+      "PRODUCTION_PIPELINE": [
+        "PR"
+      ],
+      "PRODUCT_TYPE": [
+        "GCOV"
+      ],
+      "PRODUCT_TYPE_DESC": [
+        "Geocoded Polarimetric Covariance"
+      ],
+      "PRODUCT_VERSION": [
+        "1.0.20"
+      ],
+      "RANGE_BANDWIDTH_CONCAT": [
+        "40+5"
+      ],
+      "STACK_ID": [
+        "019_D_077"
+      ],
+      "TRACK_NUMBER": [
+        "19"
+      ]
+    },
+    "metadata_revision": "2026-11-12T03:01:58.700Z"
+  },
+  {
+    "id": "G4405182121-ASF",
+    "name": "NISAR_L2_PR_GCOV_034_170_A_013_4005_DHDH_A_20261104T232918_20261104T232952_P05036_N_F_J_001",
+    "collection_id": "C3622241360-ASF",
+    "collection_name": "NISAR_L2_GCOV_V1",
+    "collection_version": "1",
+    "start_time": "2026-11-04T23:29:18.000000Z",
+    "end_time": "2026-11-04T23:29:52.999342Z",
+    "date": "2026-11-04",
+    "product": "GCOV",
+    "product_version": "1.0.20",
+    "frequencies": [
+      "A",
+      "B"
+    ],
+    "polarizations": {
+      "A": [
+        "HH",
+        "HV"
+      ],
+      "B": [
+        "HH",
+        "HV"
+      ]
+    },
+    "bandwidth_mhz": {
+      "A": "40",
+      "B": "5"
+    },
+    "instruments": [
+      "L-SAR"
+    ],
+    "orbit_direction": "ASCENDING",
+    "track": "170",
+    "frame": "13",
+    "look_direction": "LEFT",
+    "incidence_angle": null,
+    "orbit_numbers": [
+      6670
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            90.46695,
+            21.99603
+          ],
+          [
+            89.89525,
+            24.07273
+          ],
+          [
+            87.41771,
+            23.46222
+          ],
+          [
+            88.02476,
+            21.39758
+          ],
+          [
+            90.46695,
+            21.99603
+          ]
+        ]
+      ]
+    },
+    "footprint_source": "polygon",
+    "aoi_coverage_percent_approx": 94.85,
+    "metadata_url": "https://cmr.earthdata.nasa.gov/search/concepts/G4405182121-ASF.umm_json",
+    "attributes": {
+      "ASCENDING_DESCENDING": [
+        "ASCENDING"
+      ],
+      "FRAME_NUMBER": [
+        "13"
+      ],
+      "FREQUENCIES": [
+        "A",
+        "B"
+      ],
+      "FREQUENCY_A_POLARIZATION": [
+        "HH",
+        "HV"
+      ],
+      "FREQUENCY_A_POLARIZATION_CONCAT": [
+        "HH+HV"
+      ],
+      "FREQUENCY_A_RANGE_BANDWIDTH": [
+        "40"
+      ],
+      "FREQUENCY_B_POLARIZATION": [
+        "HH",
+        "HV"
+      ],
+      "FREQUENCY_B_POLARIZATION_CONCAT": [
+        "HH+HV"
+      ],
+      "FREQUENCY_B_RANGE_BANDWIDTH": [
+        "5"
+      ],
+      "FULL_FRAME": [
+        "TRUE"
+      ],
+      "JOINT_OBSERVATION": [
+        "TRUE"
+      ],
+      "ORBIT_TYPE": [
+        "MOE"
+      ],
+      "PROCESSING_CENTER": [
+        "JPL"
+      ],
+      "PROCESSING_LEVEL": [
+        "L2"
+      ],
+      "PRODUCTION_PIPELINE": [
+        "PR"
+      ],
+      "PRODUCT_TYPE": [
+        "GCOV"
+      ],
+      "PRODUCT_TYPE_DESC": [
+        "Geocoded Polarimetric Covariance"
+      ],
+      "PRODUCT_VERSION": [
+        "1.0.20"
+      ],
+      "RANGE_BANDWIDTH_CONCAT": [
+        "40+5"
+      ],
+      "STACK_ID": [
+        "170_A_013"
+      ],
+      "TRACK_NUMBER": [
+        "170"
+      ]
+    },
+    "metadata_revision": "2026-11-08T02:27:10.528Z"
+  },
+  {
+    "id": "G4404805791-ASF",
+    "name": "NISAR_L2_PR_GCOV_034_170_A_012_4005_DHDH_A_20261104T232911_20261104T232919_P05036_N_P_J_001",
+    "collection_id": "C3622241360-ASF",
+    "collection_name": "NISAR_L2_GCOV_V1",
+    "collection_version": "1",
+    "start_time": "2026-11-04T23:29:11.000000Z",
+    "end_time": "2026-11-04T23:29:19.999342Z",
+    "date": "2026-11-04",
+    "product": "GCOV",
+    "product_version": "1.0.20",
+    "frequencies": [
+      "A",
+      "B"
+    ],
+    "polarizations": {
+      "A": [
+        "HH",
+        "HV"
+      ],
+      "B": [
+        "HH",
+        "HV"
+      ]
+    },
+    "bandwidth_mhz": {
+      "A": "40",
+      "B": "5"
+    },
+    "instruments": [
+      "L-SAR"
+    ],
+    "orbit_direction": "ASCENDING",
+    "track": "170",
+    "frame": "12",
+    "look_direction": "LEFT",
+    "incidence_angle": null,
+    "orbit_numbers": [
+      6670
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            90.57919,
+            21.58043
+          ],
+          [
+            90.43478,
+            22.11473
+          ],
+          [
+            87.9907,
+            21.51561
+          ],
+          [
+            88.14344,
+            20.98426
+          ],
+          [
+            90.57919,
+            21.58043
+          ]
+        ]
+      ]
+    },
+    "footprint_source": "polygon",
+    "aoi_coverage_percent_approx": 21.71,
+    "metadata_url": "https://cmr.earthdata.nasa.gov/search/concepts/G4404805791-ASF.umm_json",
+    "attributes": {
+      "ASCENDING_DESCENDING": [
+        "ASCENDING"
+      ],
+      "FRAME_NUMBER": [
+        "12"
+      ],
+      "FREQUENCIES": [
+        "A",
+        "B"
+      ],
+      "FREQUENCY_A_POLARIZATION": [
+        "HH",
+        "HV"
+      ],
+      "FREQUENCY_A_POLARIZATION_CONCAT": [
+        "HH+HV"
+      ],
+      "FREQUENCY_A_RANGE_BANDWIDTH": [
+        "40"
+      ],
+      "FREQUENCY_B_POLARIZATION": [
+        "HH",
+        "HV"
+      ],
+      "FREQUENCY_B_POLARIZATION_CONCAT": [
+        "HH+HV"
+      ],
+      "FREQUENCY_B_RANGE_BANDWIDTH": [
+        "5"
+      ],
+      "FULL_FRAME": [
+        "FALSE"
+      ],
+      "JOINT_OBSERVATION": [
+        "TRUE"
+      ],
+      "ORBIT_TYPE": [
+        "MOE"
+      ],
+      "PROCESSING_CENTER": [
+        "JPL"
+      ],
+      "PROCESSING_LEVEL": [
+        "L2"
+      ],
+      "PRODUCTION_PIPELINE": [
+        "PR"
+      ],
+      "PRODUCT_TYPE": [
+        "GCOV"
+      ],
+      "PRODUCT_TYPE_DESC": [
+        "Geocoded Polarimetric Covariance"
+      ],
+      "PRODUCT_VERSION": [
+        "1.0.20"
+      ],
+      "RANGE_BANDWIDTH_CONCAT": [
+        "40+5"
+      ],
+      "STACK_ID": [
+        "170_A_012"
+      ],
+      "TRACK_NUMBER": [
+        "170"
+      ]
+    },
+    "metadata_revision": "2026-11-07T17:19:55.571Z"
+  },
+  {
+    "id": "G4405152572-ASF",
+    "name": "NISAR_L2_PR_GCOV_034_098_A_013_4005_DHDH_A_20261030T233737_20261030T233812_P05036_N_F_J_001",
+    "collection_id": "C3622241360-ASF",
+    "collection_name": "NISAR_L2_GCOV_V1",
+    "collection_version": "1",
+    "start_time": "2026-10-30T23:37:37.000000Z",
+    "end_time": "2026-10-30T23:38:12.999342Z",
+    "date": "2026-10-30",
+    "product": "GCOV",
+    "product_version": "1.0.20",
+    "frequencies": [
+      "A",
+      "B"
+    ],
+    "polarizations": {
+      "A": [
+        "HH",
+        "HV"
+      ],
+      "B": [
+        "HH",
+        "HV"
+      ]
+    },
+    "bandwidth_mhz": {
+      "A": "40",
+      "B": "5"
+    },
+    "instruments": [
+      "L-SAR"
+    ],
+    "orbit_direction": "ASCENDING",
+    "track": "98",
+    "frame": "13",
+    "look_direction": "LEFT",
+    "incidence_angle": null,
+    "orbit_numbers": [
+      6598
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            88.39303,
+            21.97278
+          ],
+          [
+            87.80461,
+            24.10872
+          ],
+          [
+            85.3189,
+            23.49605
+          ],
+          [
+            85.94618,
+            21.37316
+          ],
+          [
+            88.39303,
+            21.97278
+          ]
+        ]
+      ]
+    },
+    "footprint_source": "polygon",
+    "aoi_coverage_percent_approx": 0.0,
+    "metadata_url": "https://cmr.earthdata.nasa.gov/search/concepts/G4405152572-ASF.umm_json",
+    "attributes": {
+      "ASCENDING_DESCENDING": [
+        "ASCENDING"
+      ],
+      "FRAME_NUMBER": [
+        "13"
+      ],
+      "FREQUENCIES": [
+        "A",
+        "B"
+      ],
+      "FREQUENCY_A_POLARIZATION": [
+        "HH",
+        "HV"
+      ],
+      "FREQUENCY_A_POLARIZATION_CONCAT": [
+        "HH+HV"
+      ],
+      "FREQUENCY_A_RANGE_BANDWIDTH": [
+        "40"
+      ],
+      "FREQUENCY_B_POLARIZATION": [
+        "HH",
+        "HV"
+      ],
+      "FREQUENCY_B_POLARIZATION_CONCAT": [
+        "HH+HV"
+      ],
+      "FREQUENCY_B_RANGE_BANDWIDTH": [
+        "5"
+      ],
+      "FULL_FRAME": [
+        "TRUE"
+      ],
+      "JOINT_OBSERVATION": [
+        "TRUE"
+      ],
+      "ORBIT_TYPE": [
+        "MOE"
+      ],
+      "PROCESSING_CENTER": [
+        "JPL"
+      ],
+      "PROCESSING_LEVEL": [
+        "L2"
+      ],
+      "PRODUCTION_PIPELINE": [
+        "PR"
+      ],
+      "PRODUCT_TYPE": [
+        "GCOV"
+      ],
+      "PRODUCT_TYPE_DESC": [
+        "Geocoded Polarimetric Covariance"
+      ],
+      "PRODUCT_VERSION": [
+        "1.0.20"
+      ],
+      "RANGE_BANDWIDTH_CONCAT": [
+        "40+5"
+      ],
+      "STACK_ID": [
+        "098_A_013"
+      ],
+      "TRACK_NUMBER": [
+        "98"
+      ]
+    },
+    "metadata_revision": "2026-11-08T01:50:53.426Z"
+  },
+  {
+    "id": "G4404806602-ASF",
+    "name": "NISAR_L2_PR_GCOV_034_098_A_012_4005_DHDH_A_20261030T233715_20261030T233738_P05036_N_P_J_001",
+    "collection_id": "C3622241360-ASF",
+    "collection_name": "NISAR_L2_GCOV_V1",
+    "collection_version": "1",
+    "start_time": "2026-10-30T23:37:15.000000Z",
+    "end_time": "2026-10-30T23:37:38.999342Z",
+    "date": "2026-10-30",
+    "product": "GCOV",
+    "product_version": "1.0.20",
+    "frequencies": [
+      "A",
+      "B"
+    ],
+    "polarizations": {
+      "A": [
+        "HH",
+        "HV"
+      ],
+      "B": [
+        "HH",
+        "HV"
+      ]
+    },
+    "bandwidth_mhz": {
+      "A": "40",
+      "B": "5"
+    },
+    "instruments": [
+      "L-SAR"
+    ],
+    "orbit_direction": "ASCENDING",
+    "track": "98",
+    "frame": "12",
+    "look_direction": "LEFT",
+    "incidence_angle": null,
+    "orbit_numbers": [
+      6598
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            88.74335,
+            20.66629
+          ],
+          [
+            88.36077,
+            22.09145
+          ],
+          [
+            85.91196,
+            21.49115
+          ],
+          [
+            86.31875,
+            20.07443
+          ],
+          [
+            88.74335,
+            20.66629
+          ]
+        ]
+      ]
+    },
+    "footprint_source": "polygon",
+    "aoi_coverage_percent_approx": 4.29,
+    "metadata_url": "https://cmr.earthdata.nasa.gov/search/concepts/G4404806602-ASF.umm_json",
+    "attributes": {
+      "ASCENDING_DESCENDING": [
+        "ASCENDING"
+      ],
+      "FRAME_NUMBER": [
+        "12"
+      ],
+      "FREQUENCIES": [
+        "A",
+        "B"
+      ],
+      "FREQUENCY_A_POLARIZATION": [
+        "HH",
+        "HV"
+      ],
+      "FREQUENCY_A_POLARIZATION_CONCAT": [
+        "HH+HV"
+      ],
+      "FREQUENCY_A_RANGE_BANDWIDTH": [
+        "40"
+      ],
+      "FREQUENCY_B_POLARIZATION": [
+        "HH",
+        "HV"
+      ],
+      "FREQUENCY_B_POLARIZATION_CONCAT": [
+        "HH+HV"
+      ],
+      "FREQUENCY_B_RANGE_BANDWIDTH": [
+        "5"
+      ],
+      "FULL_FRAME": [
+        "FALSE"
+      ],
+      "JOINT_OBSERVATION": [
+        "TRUE"
+      ],
+      "ORBIT_TYPE": [
+        "MOE"
+      ],
+      "PROCESSING_CENTER": [
+        "JPL"
+      ],
+      "PROCESSING_LEVEL": [
+        "L2"
+      ],
+      "PRODUCTION_PIPELINE": [
+        "PR"
+      ],
+      "PRODUCT_TYPE": [
+        "GCOV"
+      ],
+      "PRODUCT_TYPE_DESC": [
+        "Geocoded Polarimetric Covariance"
+      ],
+      "PRODUCT_VERSION": [
+        "1.0.20"
+      ],
+      "RANGE_BANDWIDTH_CONCAT": [
+        "40+5"
+      ],
+      "STACK_ID": [
+        "098_A_012"
+      ],
+      "TRACK_NUMBER": [
+        "98"
+      ]
+    },
+    "metadata_revision": "2026-11-07T17:21:18.141Z"
+  },
+  {
+    "id": "G4404853452-ASF",
+    "name": "NISAR_L2_PR_GCOV_034_091_D_078_2005_DVDV_A_20261030T123528_20261030T123603_P05036_N_F_J_001",
+    "collection_id": "C3622241360-ASF",
+    "collection_name": "NISAR_L2_GCOV_V1",
+    "collection_version": "1",
+    "start_time": "2026-10-30T12:35:28.000000Z",
+    "end_time": "2026-10-30T12:36:03.999342Z",
+    "date": "2026-10-30",
+    "product": "GCOV",
+    "product_version": "1.0.20",
+    "frequencies": [
+      "A",
+      "B"
+    ],
+    "polarizations": {
+      "A": [
+        "VH",
+        "VV"
+      ],
+      "B": [
+        "VH",
+        "VV"
+      ]
+    },
+    "bandwidth_mhz": {
+      "A": "20",
+      "B": "5"
+    },
+    "instruments": [
+      "L-SAR"
+    ],
+    "orbit_direction": "DESCENDING",
+    "track": "91",
+    "frame": "78",
+    "look_direction": "LEFT",
+    "incidence_angle": null,
+    "orbit_numbers": [
+      6591
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            89.28158,
+            22.19154
+          ],
+          [
+            88.70802,
+            20.05396
+          ],
+          [
+            91.01048,
+            19.49216
+          ],
+          [
+            91.61448,
+            21.61861
+          ],
+          [
+            89.28158,
+            22.19154
+          ]
+        ]
+      ]
+    },
+    "footprint_source": "polygon",
+    "aoi_coverage_percent_approx": 0.0,
+    "metadata_url": "https://cmr.earthdata.nasa.gov/search/concepts/G4404853452-ASF.umm_json",
+    "attributes": {
+      "ASCENDING_DESCENDING": [
+        "DESCENDING"
+      ],
+      "FRAME_NUMBER": [
+        "78"
+      ],
+      "FREQUENCIES": [
+        "A",
+        "B"
+      ],
+      "FREQUENCY_A_POLARIZATION": [
+        "VH",
+        "VV"
+      ],
+      "FREQUENCY_A_POLARIZATION_CONCAT": [
+        "VV+VH"
+      ],
+      "FREQUENCY_A_RANGE_BANDWIDTH": [
+        "20"
+      ],
+      "FREQUENCY_B_POLARIZATION": [
+        "VH",
+        "VV"
+      ],
+      "FREQUENCY_B_POLARIZATION_CONCAT": [
+        "VV+VH"
+      ],
+      "FREQUENCY_B_RANGE_BANDWIDTH": [
+        "5"
+      ],
+      "FULL_FRAME": [
+        "TRUE"
+      ],
+      "JOINT_OBSERVATION": [
+        "TRUE"
+      ],
+      "ORBIT_TYPE": [
+        "MOE"
+      ],
+      "PROCESSING_CENTER": [
+        "JPL"
+      ],
+      "PROCESSING_LEVEL": [
+        "L2"
+      ],
+      "PRODUCTION_PIPELINE": [
+        "PR"
+      ],
+      "PRODUCT_TYPE": [
+        "GCOV"
+      ],
+      "PRODUCT_TYPE_DESC": [
+        "Geocoded Polarimetric Covariance"
+      ],
+      "PRODUCT_VERSION": [
+        "1.0.20"
+      ],
+      "RANGE_BANDWIDTH_CONCAT": [
+        "20+5"
+      ],
+      "STACK_ID": [
+        "091_D_078"
+      ],
+      "TRACK_NUMBER": [
+        "91"
+      ]
+    },
+    "metadata_revision": "2026-11-07T18:28:56.395Z"
+  },
+  {
+    "id": "G4404351555-ASF",
+    "name": "NISAR_L2_PR_GCOV_034_019_D_078_2005_DVDV_A_20261025T124350_20261025T124422_P05036_N_F_J_001",
+    "collection_id": "C3622241360-ASF",
+    "collection_name": "NISAR_L2_GCOV_V1",
+    "collection_version": "1",
+    "start_time": "2026-10-25T12:43:50.000000Z",
+    "end_time": "2026-10-25T12:44:22.999342Z",
+    "date": "2026-10-25",
+    "product": "GCOV",
+    "product_version": "1.0.20",
+    "frequencies": [
+      "A",
+      "B"
+    ],
+    "polarizations": {
+      "A": [
+        "VH",
+        "VV"
+      ],
+      "B": [
+        "VH",
+        "VV"
+      ]
+    },
+    "bandwidth_mhz": {
+      "A": "20",
+      "B": "5"
+    },
+    "instruments": [
+      "L-SAR"
+    ],
+    "orbit_direction": "DESCENDING",
+    "track": "19",
+    "frame": "78",
+    "look_direction": "LEFT",
+    "incidence_angle": null,
+    "orbit_numbers": [
+      6519
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            87.1532,
+            22.02186
+          ],
+          [
+            86.62735,
+            20.06251
+          ],
+          [
+            88.92983,
+            19.50074
+          ],
+          [
+            89.48272,
+            21.45008
+          ],
+          [
+            87.1532,
+            22.02186
+          ]
+        ]
+      ]
+    },
+    "footprint_source": "polygon",
+    "aoi_coverage_percent_approx": 11.45,
+    "metadata_url": "https://cmr.earthdata.nasa.gov/search/concepts/G4404351555-ASF.umm_json",
+    "attributes": {
+      "ASCENDING_DESCENDING": [
+        "DESCENDING"
+      ],
+      "FRAME_NUMBER": [
+        "78"
+      ],
+      "FREQUENCIES": [
+        "A",
+        "B"
+      ],
+      "FREQUENCY_A_POLARIZATION": [
+        "VH",
+        "VV"
+      ],
+      "FREQUENCY_A_POLARIZATION_CONCAT": [
+        "VV+VH"
+      ],
+      "FREQUENCY_A_RANGE_BANDWIDTH": [
+        "20"
+      ],
+      "FREQUENCY_B_POLARIZATION": [
+        "VH",
+        "VV"
+      ],
+      "FREQUENCY_B_POLARIZATION_CONCAT": [
+        "VV+VH"
+      ],
+      "FREQUENCY_B_RANGE_BANDWIDTH": [
+        "5"
+      ],
+      "FULL_FRAME": [
+        "TRUE"
+      ],
+      "JOINT_OBSERVATION": [
+        "TRUE"
+      ],
+      "ORBIT_TYPE": [
+        "MOE"
+      ],
+      "PROCESSING_CENTER": [
+        "JPL"
+      ],
+      "PROCESSING_LEVEL": [
+        "L2"
+      ],
+      "PRODUCTION_PIPELINE": [
+        "PR"
+      ],
+      "PRODUCT_TYPE": [
+        "GCOV"
+      ],
+      "PRODUCT_TYPE_DESC": [
+        "Geocoded Polarimetric Covariance"
+      ],
+      "PRODUCT_VERSION": [
+        "1.0.20"
+      ],
+      "RANGE_BANDWIDTH_CONCAT": [
+        "20+5"
+      ],
+      "STACK_ID": [
+        "019_D_078"
+      ],
+      "TRACK_NUMBER": [
+        "19"
+      ]
+    },
+    "metadata_revision": "2026-11-07T10:08:08.264Z"
+  },
+  {
+    "id": "G4404467079-ASF",
+    "name": "NISAR_L2_PR_GCOV_034_019_D_077_4005_DHDH_A_20261025T124314_20261025T124347_P05036_N_F_J_001",
+    "collection_id": "C3622241360-ASF",
+    "collection_name": "NISAR_L2_GCOV_V1",
+    "collection_version": "1",
+    "start_time": "2026-10-25T12:43:14.000000Z",
+    "end_time": "2026-10-25T12:43:47.999342Z",
+    "date": "2026-10-25",
+    "product": "GCOV",
+    "product_version": "1.0.20",
+    "frequencies": [
+      "A",
+      "B"
+    ],
+    "polarizations": {
+      "A": [
+        "HH",
+        "HV"
+      ],
+      "B": [
+        "HH",
+        "HV"
+      ]
+    },
+    "bandwidth_mhz": {
+      "A": "40",
+      "B": "5"
+    },
+    "instruments": [
+      "L-SAR"
+    ],
+    "orbit_direction": "DESCENDING",
+    "track": "19",
+    "frame": "77",
+    "look_direction": "LEFT",
+    "incidence_angle": null,
+    "orbit_numbers": [
+      6519
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            87.72083,
+            24.16284
+          ],
+          [
+            87.16275,
+            22.146
+          ],
+          [
+            89.52241,
+            21.56677
+          ],
+          [
+            90.11312,
+            23.57238
+          ],
+          [
+            87.72083,
+            24.16284
+          ]
+        ]
+      ]
+    },
+    "footprint_source": "polygon",
+    "aoi_coverage_percent_approx": 70.47,
+    "metadata_url": "https://cmr.earthdata.nasa.gov/search/concepts/G4404467079-ASF.umm_json",
+    "attributes": {
+      "ASCENDING_DESCENDING": [
+        "DESCENDING"
+      ],
+      "FRAME_NUMBER": [
+        "77"
+      ],
+      "FREQUENCIES": [
+        "A",
+        "B"
+      ],
+      "FREQUENCY_A_POLARIZATION": [
+        "HH",
+        "HV"
+      ],
+      "FREQUENCY_A_POLARIZATION_CONCAT": [
+        "HH+HV"
+      ],
+      "FREQUENCY_A_RANGE_BANDWIDTH": [
+        "40"
+      ],
+      "FREQUENCY_B_POLARIZATION": [
+        "HH",
+        "HV"
+      ],
+      "FREQUENCY_B_POLARIZATION_CONCAT": [
+        "HH+HV"
+      ],
+      "FREQUENCY_B_RANGE_BANDWIDTH": [
+        "5"
+      ],
+      "FULL_FRAME": [
+        "TRUE"
+      ],
+      "JOINT_OBSERVATION": [
+        "TRUE"
+      ],
+      "ORBIT_TYPE": [
+        "MOE"
+      ],
+      "PROCESSING_CENTER": [
+        "JPL"
+      ],
+      "PROCESSING_LEVEL": [
+        "L2"
+      ],
+      "PRODUCTION_PIPELINE": [
+        "PR"
+      ],
+      "PRODUCT_TYPE": [
+        "GCOV"
+      ],
+      "PRODUCT_TYPE_DESC": [
+        "Geocoded Polarimetric Covariance"
+      ],
+      "PRODUCT_VERSION": [
+        "1.0.20"
+      ],
+      "RANGE_BANDWIDTH_CONCAT": [
+        "40+5"
+      ],
+      "STACK_ID": [
+        "019_D_077"
+      ],
+      "TRACK_NUMBER": [
+        "19"
+      ]
+    },
+    "metadata_revision": "2026-11-07T11:14:17.225Z"
+  },
+  {
+    "id": "G4405780437-ASF",
+    "name": "NISAR_L2_PR_GCOV_033_170_A_013_4005_DHDH_A_20261023T232918_20261023T232952_P05036_N_F_J_001",
+    "collection_id": "C3622241360-ASF",
+    "collection_name": "NISAR_L2_GCOV_V1",
+    "collection_version": "1",
+    "start_time": "2026-10-23T23:29:18.000000Z",
+    "end_time": "2026-10-23T23:29:52.999342Z",
+    "date": "2026-10-23",
+    "product": "GCOV",
+    "product_version": "1.0.20",
+    "frequencies": [
+      "A",
+      "B"
+    ],
+    "polarizations": {
+      "A": [
+        "HH",
+        "HV"
+      ],
+      "B": [
+        "HH",
+        "HV"
+      ]
+    },
+    "bandwidth_mhz": {
+      "A": "40",
+      "B": "5"
+    },
+    "instruments": [
+      "L-SAR"
+    ],
+    "orbit_direction": "ASCENDING",
+    "track": "170",
+    "frame": "13",
+    "look_direction": "LEFT",
+    "incidence_angle": null,
+    "orbit_numbers": [
+      6497
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            90.45895,
+            22.02588
+          ],
+          [
+            89.88696,
+            24.10253
+          ],
+          [
+            87.40878,
+            23.4918
+          ],
+          [
+            88.01621,
+            21.42722
+          ],
+          [
+            90.45895,
+            22.02588
+          ]
+        ]
+      ]
+    },
+    "footprint_source": "polygon",
+    "aoi_coverage_percent_approx": 91.49,
+    "metadata_url": "https://cmr.earthdata.nasa.gov/search/concepts/G4405780437-ASF.umm_json",
+    "attributes": {
+      "ASCENDING_DESCENDING": [
+        "ASCENDING"
+      ],
+      "FRAME_NUMBER": [
+        "13"
+      ],
+      "FREQUENCIES": [
+        "A",
+        "B"
+      ],
+      "FREQUENCY_A_POLARIZATION": [
+        "HH",
+        "HV"
+      ],
+      "FREQUENCY_A_POLARIZATION_CONCAT": [
+        "HH+HV"
+      ],
+      "FREQUENCY_A_RANGE_BANDWIDTH": [
+        "40"
+      ],
+      "FREQUENCY_B_POLARIZATION": [
+        "HH",
+        "HV"
+      ],
+      "FREQUENCY_B_POLARIZATION_CONCAT": [
+        "HH+HV"
+      ],
+      "FREQUENCY_B_RANGE_BANDWIDTH": [
+        "5"
+      ],
+      "FULL_FRAME": [
+        "TRUE"
+      ],
+      "JOINT_OBSERVATION": [
+        "TRUE"
+      ],
+      "ORBIT_TYPE": [
+        "MOE"
+      ],
+      "PROCESSING_CENTER": [
+        "JPL"
+      ],
+      "PROCESSING_LEVEL": [
+        "L2"
+      ],
+      "PRODUCTION_PIPELINE": [
+        "PR"
+      ],
+      "PRODUCT_TYPE": [
+        "GCOV"
+      ],
+      "PRODUCT_TYPE_DESC": [
+        "Geocoded Polarimetric Covariance"
+      ],
+      "PRODUCT_VERSION": [
+        "1.0.20"
+      ],
+      "RANGE_BANDWIDTH_CONCAT": [
+        "40+5"
+      ],
+      "STACK_ID": [
+        "170_A_013"
+      ],
+      "TRACK_NUMBER": [
+        "170"
+      ]
+    },
+    "metadata_revision": "2026-11-08T15:55:14.943Z"
+  },
+  {
+    "id": "G4405714495-ASF",
+    "name": "NISAR_L2_PR_GCOV_033_170_A_012_4005_DHDH_A_20261023T232910_20261023T232919_P05036_N_P_J_001",
+    "collection_id": "C3622241360-ASF",
+    "collection_name": "NISAR_L2_GCOV_V1",
+    "collection_version": "1",
+    "start_time": "2026-10-23T23:29:10.000000Z",
+    "end_time": "2026-10-23T23:29:19.999342Z",
+    "date": "2026-10-23",
+    "product": "GCOV",
+    "product_version": "1.0.20",
+    "frequencies": [
+      "A",
+      "B"
+    ],
+    "polarizations": {
+      "A": [
+        "HH",
+        "HV"
+      ],
+      "B": [
+        "HH",
+        "HV"
+      ]
+    },
+    "bandwidth_mhz": {
+      "A": "40",
+      "B": "5"
+    },
+    "instruments": [
+      "L-SAR"
+    ],
+    "orbit_direction": "ASCENDING",
+    "track": "170",
+    "frame": "12",
+    "look_direction": "LEFT",
+    "incidence_angle": null,
+    "orbit_numbers": [
+      6497
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            90.58723,
+            21.55091
+          ],
+          [
+            90.42676,
+            22.14457
+          ],
+          [
+            87.98213,
+            21.54525
+          ],
+          [
+            88.15185,
+            20.95486
+          ],
+          [
+            90.58723,
+            21.55091
+          ]
+        ]
+      ]
+    },
+    "footprint_source": "polygon",
+    "aoi_coverage_percent_approx": 26.26,
+    "metadata_url": "https://cmr.earthdata.nasa.gov/search/concepts/G4405714495-ASF.umm_json",
+    "attributes": {
+      "ASCENDING_DESCENDING": [
+        "ASCENDING"
+      ],
+      "FRAME_NUMBER": [
+        "12"
+      ],
+      "FREQUENCIES": [
+        "A",
+        "B"
+      ],
+      "FREQUENCY_A_POLARIZATION": [
+        "HH",
+        "HV"
+      ],
+      "FREQUENCY_A_POLARIZATION_CONCAT": [
+        "HH+HV"
+      ],
+      "FREQUENCY_A_RANGE_BANDWIDTH": [
+        "40"
+      ],
+      "FREQUENCY_B_POLARIZATION": [
+        "HH",
+        "HV"
+      ],
+      "FREQUENCY_B_POLARIZATION_CONCAT": [
+        "HH+HV"
+      ],
+      "FREQUENCY_B_RANGE_BANDWIDTH": [
+        "5"
+      ],
+      "FULL_FRAME": [
+        "FALSE"
+      ],
+      "JOINT_OBSERVATION": [
+        "TRUE"
+      ],
+      "ORBIT_TYPE": [
+        "MOE"
+      ],
+      "PROCESSING_CENTER": [
+        "JPL"
+      ],
+      "PROCESSING_LEVEL": [
+        "L2"
+      ],
+      "PRODUCTION_PIPELINE": [
+        "PR"
+      ],
+      "PRODUCT_TYPE": [
+        "GCOV"
+      ],
+      "PRODUCT_TYPE_DESC": [
+        "Geocoded Polarimetric Covariance"
+      ],
+      "PRODUCT_VERSION": [
+        "1.0.20"
+      ],
+      "RANGE_BANDWIDTH_CONCAT": [
+        "40+5"
+      ],
+      "STACK_ID": [
+        "170_A_012"
+      ],
+      "TRACK_NUMBER": [
+        "170"
+      ]
+    },
+    "metadata_revision": "2026-11-08T13:36:11.342Z"
+  }
+]
